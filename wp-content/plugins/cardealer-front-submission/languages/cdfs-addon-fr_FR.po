@@ -1,0 +1,1346 @@
+# Translation of Car Dealer Front Submission in French (France)
+# This file is distributed under the same license as the Car Dealer Front Submission package.
+msgid ""
+msgstr ""
+"Project-Id-Version: Cardealer Frontend Submission 1.4.1\n"
+"POT-Creation-Date: 2021-04-23 12:06+0530\n"
+"PO-Revision-Date: 2021-04-23 12:07+0530\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: fr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n > 1;\n"
+"X-Generator: Poedit 2.4.2\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-KeywordsList: __;_e;_x;_ex;_n:1,2;_nx:1,2;_n_noop:1,2;_nx_noop:1,2;"
+"translate_nooped_plural;esc_html__;esc_html_e;esc_html_x;esc_attr__;"
+"esc_attr_e;esc_attr_x;number_format_i18n;date_i18n\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: cardealer-frontend-submission.php:69 cardealer-frontend-submission.php:72
+msgid ""
+"Please install/activate Car Dealer Helper Library to enable feature/"
+"functionality."
+msgstr ""
+
+#: cardealer-frontend-submission.php:111
+msgid "Car Dealer Helper Library"
+msgstr ""
+
+#: cardealer-frontend-submission.php:129
+msgid ""
+"Below required plugins are not installed or activated. Please install/"
+"activate to enable feature/functionality."
+msgstr ""
+
+#: cardealer-frontend-submission.php:131
+msgid ""
+"Below required plugin is not installed or activated. Please install/activate "
+"to enable feature/functionality."
+msgstr ""
+
+#: includes/class-cdfs-cache-helper.php:65
+#, php-format
+msgid ""
+"In order for <strong>database caching</strong> to work with Car dealer "
+"Frontend Submission, you must add %1$s to the \"Ignored Query Strings\" "
+"option in <a href=\"%2$s\">W3 Total Cache settings</a>."
+msgstr ""
+
+#: includes/class-cdfs-cars-form-handler.php:94
+msgid "Year"
+msgstr "An"
+
+#: includes/class-cdfs-cars-form-handler.php:95
+msgid "Make"
+msgstr "Faire"
+
+#: includes/class-cdfs-cars-form-handler.php:96
+msgid "Model"
+msgstr "Modèle"
+
+#: includes/class-cdfs-cars-form-handler.php:97
+msgid "Regular Price"
+msgstr "Prix ​​habituel"
+
+#: includes/class-cdfs-cars-form-handler.php:249
+msgid "New Vehicle Added!"
+msgstr "Nouveau véhicule ajouté!"
+
+#: includes/class-cdfs-cars.php:42
+msgid "Cheating! Please login and try again."
+msgstr ""
+
+#: includes/class-cdfs-cars.php:58
+#, fuzzy
+#| msgid "Vehicle Location"
+msgid "Vehicle not found."
+msgstr "Emplacement du véhicule"
+
+#: includes/class-cdfs-cars.php:65
+#, fuzzy
+#| msgid "Add Vehicle"
+msgid "Invalid vehicle ID."
+msgstr "Ajouter un véhicule"
+
+#: includes/class-cdfs-cars.php:90 includes/class-cdfs-cars.php:158
+msgid "Invalid action."
+msgstr "Action non valide"
+
+#: includes/class-cdfs-cars.php:97
+msgid "This vehicle does not belong to you."
+msgstr ""
+
+#: includes/class-cdfs-cars.php:102
+#, fuzzy
+#| msgid "Please provide a valid email address."
+msgid "Please provide vehicle ID."
+msgstr "Veuillez fournir une adresse email valide."
+
+#: includes/class-cdfs-cars.php:107
+#, fuzzy
+#| msgid "Action failed. Please refresh the page and retry."
+msgid "Invalid Nonce. Please refresh page and try again."
+msgstr "Action: échoué. Veuillez actualiser la page et réessayer."
+
+#: includes/class-cdfs-cars.php:118
+msgid "Vehicle status is successfully set to draft."
+msgstr "L&#39;état du véhicule est réglé avec succès sur le brouillon."
+
+#: includes/class-cdfs-cars.php:128
+msgid "Vehicle is successfully enabled."
+msgstr "Le véhicule est activé avec succès."
+
+#: includes/class-cdfs-cars.php:151
+msgid "Vehicle is successfully deleted."
+msgstr "Le véhicule a été supprimé avec succès."
+
+#: includes/class-cdfs-cars.php:168
+msgid "The allowed max limit of the vehicles in your account is completed."
+msgstr ""
+
+#: includes/class-cdfs-cars.php:180
+#, php-format
+msgid ""
+"The vehicle clone failed, could not create a copy of the vehicle. Error: %s"
+msgstr ""
+
+#: includes/class-cdfs-cars.php:189
+#, fuzzy
+#| msgid "Account details changed successfully."
+msgid "Car cloned successfully."
+msgstr "Les détails du compte ont bien été modifiés."
+
+#: includes/class-cdfs-cars.php:213
+#, fuzzy
+#| msgid "Please provide a valid email address."
+msgid "Vehicle empty. Please provide a valid vehicle to clone."
+msgstr "Veuillez fournir une adresse email valide."
+
+#: includes/class-cdfs-form-handler.php:105
+#: templates/my-user-account/form-edit-account.php:24
+msgid "First name"
+msgstr "Prénom"
+
+#: includes/class-cdfs-form-handler.php:106
+#: templates/my-user-account/form-edit-account.php:28
+msgid "Last name"
+msgstr "Nom de famille"
+
+#: includes/class-cdfs-form-handler.php:107
+#: templates/my-user-account/form-edit-account.php:56
+#: templates/my-user-account/form-login.php:81
+msgid "Email address"
+msgstr "Adresse e-mail"
+
+#: includes/class-cdfs-form-handler.php:114
+#, php-format
+msgid "%s is a required field."
+msgstr ""
+
+#: includes/class-cdfs-form-handler.php:121
+#: includes/functions/cdfs-user-functions.php:116
+msgid "Please provide a valid email address."
+msgstr "Veuillez fournir une adresse email valide."
+
+#: includes/class-cdfs-form-handler.php:123
+msgid "This email address is already registered."
+msgstr "Cette adresse email est déjà enregistrée."
+
+#: includes/class-cdfs-form-handler.php:129
+msgid "Please fill out all password fields."
+msgstr "S&#39;il vous plaît remplir tous les champs de mot de passe."
+
+#: includes/class-cdfs-form-handler.php:132
+msgid "Please enter your current password."
+msgstr "Veuillez entrer votre mot de passe actuel"
+
+#: includes/class-cdfs-form-handler.php:135
+msgid "Please re-enter your password."
+msgstr "Veuillez re-taper votre mot de passe."
+
+#: includes/class-cdfs-form-handler.php:138
+msgid "New passwords do not match."
+msgstr "Les nouveaux mots de passe ne correspondent pas."
+
+#: includes/class-cdfs-form-handler.php:141
+msgid "Your current password is incorrect."
+msgstr "Votre mot de passe actuel est incorrect."
+
+#: includes/class-cdfs-form-handler.php:186
+msgid "Error, please try again."
+msgstr "Erreur, veuillez réessayer."
+
+#: includes/class-cdfs-form-handler.php:213
+msgid "Please load image with right extension (jpg, jpeg, png and gif)"
+msgstr ""
+"Veuillez charger l&#39;image avec la bonne extension (jpg, jpeg, png et gif)"
+
+#: includes/class-cdfs-form-handler.php:234
+msgid "Account details changed successfully."
+msgstr "Les détails du compte ont bien été modifiés."
+
+#: includes/class-cdfs-form-handler.php:264
+#: includes/class-cdfs-form-handler.php:268
+#: includes/class-cdfs-form-handler.php:281
+#: includes/class-cdfs-form-handler.php:316
+#: includes/class-cdfs-form-handler.php:318
+#: includes/class-cdfs-form-handler.php:449
+#: includes/functions/cdfs-user-functions.php:164
+#: includes/functions/cdfs-user-functions.php:259
+#: includes/functions/cdfs-user-functions.php:276
+#: includes/functions/cdfs-user-functions.php:284
+#: includes/functions/cdfs-user-functions.php:296
+#: includes/functions/cdfs-user-functions.php:391
+#: includes/functions/cdfs-user-functions.php:448
+msgid "Error:"
+msgstr "Erreur:"
+
+#: includes/class-cdfs-form-handler.php:268
+msgid "Username is required."
+msgstr "Nom d&#39;utilisateur est nécessaire."
+
+#: includes/class-cdfs-form-handler.php:281
+#: includes/functions/cdfs-user-functions.php:296
+msgid "A user could not be found with this email address."
+msgstr "Un utilisateur n&#39;a pas pu être trouvé avec cette adresse e-mail."
+
+#: includes/class-cdfs-form-handler.php:316
+#: includes/functions/cdfs-user-functions.php:335
+msgid ""
+"Please activate your account with the activation link sent to your "
+"registered mail account."
+msgstr ""
+
+#: includes/class-cdfs-form-handler.php:318
+#: includes/functions/cdfs-user-functions.php:340
+msgid ""
+"Your account is waiting for admin approval. Once your account is approved by "
+"the admin, you will be able to manage vehicles."
+msgstr ""
+
+#: includes/class-cdfs-form-handler.php:353
+#: includes/shortcodes/class-cdfs-shortcode-my-account.php:48
+msgid ""
+"Password reset link is successfully sent to your email address, please check."
+msgstr ""
+"Le lien de réinitialisation du mot de passe est envoyé avec succès à votre "
+"adresse e-mail, veuillez vérifier."
+
+#: includes/class-cdfs-form-handler.php:385
+msgid "Please enter your password."
+msgstr "S&#39;il vous plait entrez votre mot de passe."
+
+#: includes/class-cdfs-form-handler.php:389
+msgid "Passwords do not match."
+msgstr "Les mots de passe ne correspondent pas."
+
+#: includes/class-cdfs-form-handler.php:441
+msgid ""
+"Account successfully created. Please activate your account with the "
+"activation link sent to your registered mail account."
+msgstr ""
+
+#: includes/class-cdfs-form-handler.php:443
+#, fuzzy
+#| msgid "You are successfully registered!"
+msgid ""
+"Account successfully created. Your account is waiting for admin approval."
+msgstr "Vous êtes enregistré avec succès!"
+
+#: includes/class-cdfs-form-handler.php:445
+#, fuzzy
+#| msgid "You are successfully registered."
+msgid "Account successfully created."
+msgstr "Vous êtes enregistré avec succès."
+
+#: includes/class-cdfs-front-end-scripts.php:110
+#: templates/cars/cars-templates/car-actions.php:71
+msgid "Alert"
+msgstr "Alerte"
+
+#: includes/class-cdfs-front-end-scripts.php:111
+msgid "Error!"
+msgstr "Erreur!"
+
+#: includes/class-cdfs-front-end-scripts.php:112
+msgid "Are you sure want to delete?"
+msgstr "Êtes-vous sûr de vouloir supprimer?"
+
+#: includes/class-cdfs-front-end-scripts.php:114
+#, fuzzy, php-format
+#| msgid "Sorry! you can add at most "
+msgid "Sorry! You can upload at most %s images."
+msgstr "Pardon! vous pouvez ajouter au plus"
+
+#: includes/class-cdfs-front-end-scripts.php:115
+msgid "The file(s) [file] is not an image."
+msgstr "Le (s) fichier (s) [fichier] n&#39;est pas une image."
+
+#: includes/class-cdfs-front-end-scripts.php:116
+msgid "The file [file] is not a PDF file, Please upload PDF file only."
+msgstr ""
+"Le fichier [fichier] n&#39;est pas un fichier PDF, veuillez télécharger le "
+"fichier PDF seulement."
+
+#: includes/class-cdfs-front-end-scripts.php:117
+msgid "File size exceeded than 4 MB."
+msgstr "La taille du fichier dépasse 4 Mo."
+
+#: includes/class-cdfs.php:111 includes/class-cdfs.php:167
+msgid "Add Vehicle"
+msgstr "Ajouter un véhicule"
+
+#: includes/class-cdfs.php:297 includes/class-cdfs.php:445
+msgid "Action failed. Please refresh the page and retry."
+msgstr "Action: échoué. Veuillez actualiser la page et réessayer."
+
+#: includes/class-cdfs.php:386
+msgid "dealer-account"
+msgstr "dealer-compte"
+
+#: includes/class-cdfs.php:387
+msgid "My Dealer Account"
+msgstr "Mon compte de concessionnaire"
+
+#: includes/class-cdfs.php:461 includes/class-cdfs.php:475
+msgid "Car Dealer Front End Submission Addon update"
+msgstr ""
+"Mise à jour de l&#39;addon de soumission frontale du concessionnaire "
+"automobile"
+
+#: includes/class-cdfs.php:461
+msgid "Your database is being updated in the background."
+msgstr "Votre base de données est en cours de mise à jour en arrière-plan."
+
+#: includes/class-cdfs.php:475
+msgid "We need to update your store database to the latest version."
+msgstr ""
+"Nous devons mettre à jour la base de données de votre magasin à la dernière "
+"version."
+
+#: includes/class-cdfs.php:476
+msgid "Run the updater"
+msgstr "Exécuter le programme de mise à jour"
+
+#: includes/class-cdfs.php:480
+msgid ""
+"It is strongly recommended that you backup your database before proceeding. "
+"Are you sure you wish to run the updater now?"
+msgstr ""
+"Il est fortement recommandé de sauvegarder votre base de données avant de "
+"continuer. Êtes-vous sûr de vouloir exécuter le programme de mise à jour "
+"maintenant?"
+
+#: includes/class-cdfs.php:494
+msgid ""
+"Car Dealer Front End Submission Addon update complete. Thank you for "
+"updating to the latest version!"
+msgstr ""
+"Mise à jour de l&#39;addon de soumission de front-end du concessionnaire "
+"automobile terminée. Merci d&#39;avoir mis à jour la dernière version!"
+
+#: includes/class-cdfs.php:495
+msgid "Dismiss"
+msgstr "Rejeter"
+
+#: includes/class-cdfs.php:524
+#, php-format
+msgid "Queuing %1$s - %2$s"
+msgstr ""
+
+#: includes/class-cdfs.php:724
+msgid "Car Dealer"
+msgstr "Concessionnaire"
+
+#: includes/class-cdfs.php:732
+msgid "These was an error creating a role!"
+msgstr "C&#39;était une erreur en créant un rôle!"
+
+#: includes/functions/cdfs-cars-functions.php:28
+#, fuzzy
+#| msgid "Add Vehicle"
+msgid "Add vehicle"
+msgstr "Ajouter un véhicule"
+
+#: includes/functions/cdfs-cars-functions.php:122
+msgid "Unsold"
+msgstr "Invendu"
+
+#: includes/functions/cdfs-cars-functions.php:123
+msgid "Sold"
+msgstr "Vendu"
+
+#: includes/functions/cdfs-cars-functions.php:288
+#: includes/functions/cdfs-cars-functions.php:311
+msgid "Found Match!"
+msgstr "Match trouvé!"
+
+#: includes/functions/cdfs-cars-functions.php:294
+#: includes/functions/cdfs-cars-functions.php:317
+msgid "Not Found"
+msgstr "Pas trouvé"
+
+#: includes/functions/cdfs-cars-functions.php:352
+#, php-format
+msgid "Please upload file(s) with %s extension."
+msgstr ""
+
+#: includes/functions/cdfs-cars-functions.php:403
+#: includes/functions/cdfs-cars-functions.php:442
+#: includes/functions/cdfs-cars-functions.php:514
+#: includes/functions/cdfs-user-functions.php:248
+#: includes/functions/cdfs-user-functions.php:377
+msgid "Something went wrong!"
+msgstr "Quelque chose s&#39;est mal passé!"
+
+#: includes/functions/cdfs-cars-functions.php:423
+msgid "Successfully dropped image!"
+msgstr "Laisse tomber l&#39;image!"
+
+#: includes/functions/cdfs-cars-functions.php:451
+msgid "Vehicle data successfully saved!"
+msgstr "Données du véhicule sauvegardées avec succès!"
+
+#: includes/functions/cdfs-cars-functions.php:456
+msgid "Please check captcha form."
+msgstr "S&#39;il vous plaît vérifier le formulaire captcha."
+
+#: includes/functions/cdfs-cars-functions.php:465
+#, fuzzy, php-format
+#| msgid "Please fill required fields: "
+msgid "Please fill required fields: %s"
+msgstr "S&#39;il vous plaît remplir les champs obligatoires:"
+
+#: includes/functions/cdfs-cars-functions.php:473
+#, fuzzy, php-format
+#| msgid "Sorry! you can add at most "
+msgid "Sorry! you can add at most %s vehicles."
+msgstr "Pardon! vous pouvez ajouter au plus"
+
+#: includes/functions/cdfs-cars-functions.php:481
+#, fuzzy, php-format
+#| msgid "Sorry! you can upload vehicle images at most "
+msgid "Sorry! you can upload vehicle images at most %s."
+msgstr "Pardon! vous pouvez télécharger des images de véhicule au maximum"
+
+#: includes/functions/cdfs-cars-functions.php:487
+msgid "There is an error inserting vehicle, please try again later!"
+msgstr ""
+"Il y a une erreur lors de l&#39;insertion du véhicule, veuillez réessayer "
+"plus tard!"
+
+#: includes/functions/cdfs-cars-functions.php:520
+msgid "Vehicle images uploaded successfully!!"
+msgstr "Images du véhicule téléchargées avec succès !!"
+
+#: includes/functions/cdfs-cars-functions.php:521
+msgid "Vehicle is successfully saved!"
+msgstr "Le véhicule a été enregistré avec succès!"
+
+#: includes/functions/cdfs-cars-functions.php:525
+#, php-format
+msgid ""
+"Following images not uploaded due to image size exceeded than %1$s MB: %2$s."
+msgstr ""
+
+#: includes/functions/cdfs-cars-functions.php:585
+#: includes/functions/cdfs-cars-functions.php:587
+#: includes/functions/cdfs-cars-functions.php:595
+#: includes/functions/cdfs-cars-functions.php:597
+#: includes/functions/cdfs-cars-functions.php:610
+msgid "Sale Price: "
+msgstr "Prix ​​de vente:"
+
+#: includes/functions/cdfs-cars-functions.php:608
+msgid "Vehicle Price"
+msgstr "Prix ​​du véhicule"
+
+#: includes/functions/cdfs-cars-functions.php:610
+msgid "Regular Price : "
+msgstr "Prix ​​habituel :"
+
+#: includes/functions/cdfs-cars-functions.php:712
+#, fuzzy
+#| msgid "Vehicle Price"
+msgid "Vehicle published!"
+msgstr "Prix ​​du véhicule"
+
+#: includes/functions/cdfs-core-functions.php:171
+msgid "Dashboard"
+msgstr "Tableau de bord"
+
+#: includes/functions/cdfs-core-functions.php:172
+msgid "Account details"
+msgstr "Details du compte"
+
+#: includes/functions/cdfs-core-functions.php:173
+msgid "Add New Vehicle"
+msgstr "Ajouter un nouveau véhicule"
+
+#: includes/functions/cdfs-core-functions.php:174
+msgid "Logout"
+msgstr "Connectez - Out"
+
+#: includes/functions/cdfs-core-functions.php:645
+msgid "Please check the the captcha form"
+msgstr "S&#39;il vous plaît vérifier le formulaire captcha"
+
+#: includes/functions/cdfs-user-functions.php:80
+msgid "My Account"
+msgstr "Mon compte"
+
+#: includes/functions/cdfs-user-functions.php:82
+#: templates/my-user-account/form-login.php:22
+#: templates/my-user-account/form-login.php:44
+msgid "Login"
+msgstr "S&#39;identifier"
+
+#: includes/functions/cdfs-user-functions.php:120
+msgid ""
+"An account is already registered with your email address. Please log in."
+msgstr ""
+"Un compte est déjà enregistré avec votre adresse e-mail. Veuillez vous "
+"connecter"
+
+#: includes/functions/cdfs-user-functions.php:128
+msgid "Please enter a valid account username."
+msgstr "Veuillez entrer un nom d&#39;utilisateur de compte valide."
+
+#: includes/functions/cdfs-user-functions.php:132
+msgid ""
+"An account is already registered with that username. Please choose another."
+msgstr ""
+"Un compte est déjà enregistré avec ce nom d&#39;utilisateur. Merci d&#39;en "
+"choisir un autre."
+
+#: includes/functions/cdfs-user-functions.php:135
+msgid "Please enter username."
+msgstr "S&#39;il vous plaît entrer le nom d&#39;utilisateur."
+
+#: includes/functions/cdfs-user-functions.php:140
+msgid "Please enter an account password."
+msgstr "S&#39;il vous plaît entrer un mot de passe de compte."
+
+#: includes/functions/cdfs-user-functions.php:164
+msgid ""
+"Couldn't register you. Please contact us if you continue to have problems."
+msgstr ""
+"Je n&#39;ai pas pu vous enregistrer. Veuillez nous contacter si vous "
+"continuez à avoir des problèmes."
+
+#: includes/functions/cdfs-user-functions.php:262
+#: includes/functions/cdfs-user-functions.php:394
+msgid "Please check captcha form!"
+msgstr "S&#39;il vous plaît vérifier le formulaire captcha!"
+
+#: includes/functions/cdfs-user-functions.php:276
+#: includes/functions/cdfs-user-functions.php:404
+#, fuzzy
+#| msgid "Please fill required fields: "
+msgid "Please fill the required fields."
+msgstr "S&#39;il vous plaît remplir les champs obligatoires:"
+
+#: includes/functions/cdfs-user-functions.php:326
+#: includes/shortcodes/class-cdfs-shortcode-my-account.php:52
+#, fuzzy
+#| msgid "Please login with \"Dealer\" account."
+msgid "Please login with \"Dealer Or Customer\" account."
+msgstr "Veuillez vous connecter avec le compte &quot;Dealer&quot;."
+
+#: includes/functions/cdfs-user-functions.php:349
+msgid "Successfully logged in!"
+msgstr "Connecté avec succès!"
+
+#: includes/functions/cdfs-user-functions.php:442
+msgid "You are successfully registered!"
+msgstr "Vous êtes enregistré avec succès!"
+
+#: includes/functions/cdfs-user-functions.php:475
+msgid "New Registration"
+msgstr "Nouvelle inscription"
+
+#: includes/functions/cdfs-user-functions.php:533
+#: includes/functions/cdfs-user-functions.php:602
+#, fuzzy
+#| msgid "New Registration"
+msgid "New Dealer Registration"
+msgstr "Nouvelle inscription"
+
+#: includes/functions/cdfs-user-functions.php:534
+#, fuzzy
+#| msgid "New Registration"
+msgid "Registration Success"
+msgstr "Nouvelle inscription"
+
+#: includes/functions/cdfs-user-functions.php:603
+#, fuzzy
+#| msgid "New Registration"
+msgid "Registration Success."
+msgstr "Nouvelle inscription"
+
+#: includes/functions/cdfs-user-functions.php:672
+#, fuzzy
+#| msgid "Account details"
+msgid "Account activation alert."
+msgstr "Details du compte"
+
+#: includes/functions/cdfs-user-functions.php:725
+msgid "Acccount Activated - DO NOT REPLY"
+msgstr ""
+
+#: includes/functions/cdfs-user-functions.php:794
+msgid "Your account is already active."
+msgstr ""
+
+#: includes/functions/cdfs-user-functions.php:803
+#, fuzzy
+#| msgid "Account details changed successfully."
+msgid "Congratulations! Your account is activated successfully."
+msgstr "Les détails du compte ont bien été modifiés."
+
+#: includes/functions/cdfs-user-functions.php:807
+#, fuzzy
+#| msgid "Invalid action."
+msgid "Error! Invalid activation link."
+msgstr "Action non valide"
+
+#: includes/functions/cdfs-woocommerce-functions.php:36
+#: includes/functions/cdfs-woocommerce-functions.php:49
+msgid "e.g. 100"
+msgstr "par exemple. 100"
+
+#: includes/functions/cdfs-woocommerce-functions.php:37
+msgid "Cars Quota"
+msgstr "Quota de voitures"
+
+#: includes/functions/cdfs-woocommerce-functions.php:50
+msgid "Cars Images Quota"
+msgstr "Voitures Images Quota"
+
+#: includes/functions/cdfs-woocommerce-functions.php:173
+msgid "Pending subscription canceled due to canceled order."
+msgstr "L'abonnement en attente a été annulé en raison d'une commande annulée."
+
+#: includes/shortcodes/class-cdfs-shortcode-my-account.php:57
+msgid "Your password has been reset successfully."
+msgstr "Votre mot de passe a été réinitialisé avec succès."
+
+#: includes/shortcodes/class-cdfs-shortcode-my-account.php:79
+#, php-format
+msgid ""
+"Are you sure you want to log out? <a href=\"%s\">Confirm and log out</a>"
+msgstr ""
+"Êtes-vous sûr de vouloir vous déconnecter? <a href=\"%s\">Confirmer et "
+"déconnecter</a>"
+
+#: includes/shortcodes/class-cdfs-shortcode-my-account.php:191
+msgid "Enter a username or email address."
+msgstr "Entrez un nom d&#39;utilisateur ou une adresse e-mail."
+
+#: includes/shortcodes/class-cdfs-shortcode-my-account.php:211
+#: includes/shortcodes/class-cdfs-shortcode-my-account.php:216
+msgid "Invalid username or email."
+msgstr "Nom d&#39;utilisateur ou adresse e-mail incorrect"
+
+#: includes/shortcodes/class-cdfs-shortcode-my-account.php:234
+msgid "Password Reset"
+msgstr "Réinitialiser le mot de passe"
+
+#: includes/shortcodes/pricing.php:38
+msgid "Click Here"
+msgstr ""
+
+#: includes/shortcodes/pricing.php:192
+msgid "Choose plan"
+msgstr ""
+
+#: includes/shortcodes/pricing.php:204 includes/shortcodes/pricing.php:205
+msgid "Potenza Pricing"
+msgstr ""
+
+#: includes/shortcodes/pricing.php:210
+msgid "Potenza"
+msgstr ""
+
+#: includes/shortcodes/pricing.php:217
+msgid "Title"
+msgstr ""
+
+#: includes/shortcodes/pricing.php:218
+msgid "Enter pricing title."
+msgstr ""
+
+#: includes/shortcodes/pricing.php:225
+msgid "Sub Title"
+msgstr ""
+
+#: includes/shortcodes/pricing.php:226
+msgid "Enter pricing sub title."
+msgstr ""
+
+#: includes/shortcodes/pricing.php:234
+msgid "Price"
+msgstr ""
+
+#: includes/shortcodes/pricing.php:235
+msgid "Enter price. e.g.10.00 $"
+msgstr ""
+
+#: includes/shortcodes/pricing.php:242
+msgid "Frequency"
+msgstr ""
+
+#: includes/shortcodes/pricing.php:243
+msgid "Enter price. e.g.Per Month"
+msgstr ""
+
+#: includes/shortcodes/pricing.php:250
+msgid "Features"
+msgstr ""
+
+#: includes/shortcodes/pricing.php:251
+msgid "Add features. Add each feature on a new line."
+msgstr ""
+
+#: includes/shortcodes/pricing.php:257
+msgid "Button Title"
+msgstr ""
+
+#: includes/shortcodes/pricing.php:258
+msgid "Enter button title."
+msgstr ""
+
+#: includes/shortcodes/pricing.php:265
+msgid "Button Link"
+msgstr ""
+
+#: includes/shortcodes/pricing.php:266
+msgid "Select/enter url."
+msgstr ""
+
+#: includes/shortcodes/pricing.php:271
+msgid "Best Seller"
+msgstr ""
+
+#: includes/shortcodes/pricing.php:272
+msgid "Select this checkbox to display the table as best-seller/featured."
+msgstr ""
+
+#: includes/shortcodes/pricing.php:279
+msgid "Plan add to cart (Plan ID)"
+msgstr ""
+
+#: includes/shortcodes/pricing.php:280
+msgid "Note: Work with only 'Subscriptio' plugin"
+msgstr ""
+
+#: includes/user-meta/user-list-custom-column.php:17
+#: includes/user-meta/user-meta-fields.php:22
+#: templates/cars/cars-listing.php:109 templates/cars/cars-listing.php:173
+msgid "Status"
+msgstr "Statut"
+
+#: includes/user-meta/user-list-custom-column.php:42
+#: includes/user-meta/user-meta-fields.php:28
+msgid "Pending"
+msgstr ""
+
+#: includes/user-meta/user-list-custom-column.php:42
+#: includes/user-meta/user-meta-fields.php:27
+msgid "Active"
+msgstr ""
+
+#: includes/user-meta/user-meta-fields.php:18
+#, fuzzy
+#| msgid "Account details"
+msgid "Acount status"
+msgstr "Details du compte"
+
+#: includes/version_update/helper-classes/class-cdfs-background-updater.php:52
+#, php-format
+msgid ""
+"Unable to dispatch Car Dealer Front End Submission Addon Updater updater: %s"
+msgstr ""
+
+#: includes/version_update/helper-classes/class-cdfs-background-updater.php:119
+#, php-format
+msgid "Running %s callback"
+msgstr ""
+
+#: includes/version_update/helper-classes/class-cdfs-background-updater.php:126
+#, php-format
+msgid "Finished %s callback"
+msgstr ""
+
+#: includes/version_update/helper-classes/class-cdfs-background-updater.php:133
+#, php-format
+msgid "Could not find %s callback"
+msgstr ""
+
+#: includes/version_update/helper-classes/class-cdfs-background-updater.php:149
+msgid "Data update complete"
+msgstr "Mise à jour des données terminée"
+
+#: includes/version_update/helper-classes/class-cdfs-logger.php:22
+msgid "m-d-Y"
+msgstr "mdY"
+
+#: includes/version_update/helper-classes/class-cdfs-logger.php:24
+msgid "m-d-Y @ H:i:s"
+msgstr "mdY @ H: i: s"
+
+#: includes/version_update/libraries/wp-cdfs-background-process.php:420
+#, php-format
+msgid "Every %d minutes"
+msgstr ""
+
+#: templates/cars/cars-add.php:34
+msgid "Please login."
+msgstr "Veuillez vous connecter"
+
+#: templates/cars/cars-add.php:38
+msgid "Invalid action, try again later."
+msgstr "Action incorrecte, réessayez plus tard."
+
+#: templates/cars/cars-add.php:48
+msgid "You are not the owner of this vehicle."
+msgstr "Vous n&#39;êtes pas le propriétaire de ce véhicule."
+
+#: templates/cars/cars-add.php:52
+msgid "No vehicle to edit."
+msgstr "Pas de véhicule à éditer."
+
+#: templates/cars/cars-add.php:100
+msgid "Vehicle Images"
+msgstr "Images du véhicule"
+
+#: templates/cars/cars-add.php:104
+#: templates/cars/cars-templates/cars-location-admin-notice.php:6
+msgid "Vehicle Location"
+msgstr "Emplacement du véhicule"
+
+#: templates/cars/cars-add.php:108
+msgid "Vehicle Attributes"
+msgstr "Attributs du véhicule"
+
+#: templates/cars/cars-add.php:112
+msgid "Vehicle PDF Brochure"
+msgstr "Brochure PDF du véhicule"
+
+#: templates/cars/cars-add.php:116
+msgid "Additional Information"
+msgstr "Information additionnelle"
+
+#: templates/cars/cars-add.php:120
+msgid "Vehicle Excerpt"
+msgstr "Extrait de véhicule"
+
+#: templates/cars/cars-add.php:188
+msgid "Update Details"
+msgstr "Mise à jour Détails"
+
+#: templates/cars/cars-add.php:188
+msgid "Submit Details"
+msgstr "Envoyer des détails"
+
+#: templates/cars/cars-listing.php:85
+#: templates/cars/cars-templates/car-actions.php:61
+msgid "Gallery"
+msgstr "Galerie"
+
+#: templates/cars/cars-listing.php:120
+#, fuzzy
+#| msgid "Vehicle Location"
+msgid "Location:"
+msgstr "Emplacement du véhicule"
+
+#: templates/cars/cars-listing.php:167
+msgid "Details"
+msgstr "Détails"
+
+#: templates/cars/cars-listing.php:188
+msgid "No vehicles added."
+msgstr "Aucun véhicule ajouté."
+
+#: templates/cars/cars-templates/car-actions.php:35
+msgid "View"
+msgstr "Vue"
+
+#: templates/cars/cars-templates/car-actions.php:48
+#: templates/cars/cars-templates/car-actions.php:53
+msgid "Compare"
+msgstr "Comparer"
+
+#: templates/cars/cars-templates/car-actions.php:65
+msgid "Edit"
+msgstr "modifier"
+
+#: templates/cars/cars-templates/car-actions.php:71
+msgid "Delete"
+msgstr "Effacer"
+
+#: templates/cars/cars-templates/car-actions.php:76
+msgid "Enable"
+msgstr "Activer"
+
+#: templates/cars/cars-templates/car-actions.php:81
+msgid "Disable"
+msgstr "Désactiver"
+
+#: templates/cars/cars-templates/car-actions.php:93
+msgid "Clone"
+msgstr ""
+
+#: templates/cars/cars-templates/car-additional-info.php:108
+#: templates/cars/cars-templates/car-additional-info.php:110
+msgid "Other"
+msgstr "Autre"
+
+#: templates/cars/cars-templates/car-additional-info.php:118
+msgid "Enter options by comma separated"
+msgstr "Entrez les options par virgule séparée"
+
+#: templates/cars/cars-templates/car-attributes-important.php:101
+#: templates/cars/cars-templates/car-attributes.php:101
+msgid "Enter"
+msgstr "Entrer"
+
+#: templates/cars/cars-templates/cars-image-gallery.php:39
+msgid "Upload Images"
+msgstr "Importer des images"
+
+#: templates/cars/cars-templates/cars-image-gallery.php:54
+msgid "car_images"
+msgstr "car_images"
+
+#: templates/cars/cars-templates/cars-location-admin-notice.php:12
+#, php-format
+msgid ""
+"The Google Maps API key is not provided. Please make sure that Google Maps "
+"API keys have been added to the <strong style=\"color:#313131;\"><a href="
+"\"%1$s\">Theme Options > Google API Settings > \"Google Maps API Key\" "
+"field</a></strong>. Also, ensure that the API Account and API Keys are "
+"configured and working properly."
+msgstr ""
+
+#: templates/cars/cars-templates/cars-location-admin-notice.php:26
+msgid ""
+"<b>Note</b>: This information will be visible only to administrators. No "
+"visitors will see this notice."
+msgstr ""
+
+#: templates/cars/cars-templates/cars-location.php:51
+msgid "Enter vehicle location"
+msgstr "Entrez l&#39;emplacement du véhicule"
+
+#: templates/cars/cars-templates/cars-pdf-brochure.php:22
+msgid "Upload Brochure"
+msgstr "Télécharger la brochure"
+
+#: templates/cars/cars-templates/cars-pdf-brochure.php:32
+msgid "PDF Brochure"
+msgstr "Brochure PDF"
+
+#: templates/mails/mail-add-car-admin-notification.php:20
+#, php-format
+msgid "Hello %s, New vehicle was added by Dealer!"
+msgstr ""
+
+#: templates/mails/mail-add-car-admin-notification.php:24
+msgid "Following are the Details:"
+msgstr "Voici les détails:"
+
+#: templates/mails/mail-add-car-admin-notification.php:29
+#, php-format
+msgid "Dealer Name: %s"
+msgstr ""
+
+#: templates/mails/mail-add-car-admin-notification.php:35
+#: templates/mails/mail-register-user.php:39
+#: templates/mails/mail-register-user.php:183
+#: templates/mails/mail-register-user.php:211
+#, php-format
+msgid "Email: %s"
+msgstr ""
+
+#: templates/mails/mail-add-car-admin-notification.php:39
+#: templates/mails/mail-dealer-publish-notification.php:30
+msgid "Vehicle Details"
+msgstr "Les détails du véhicule"
+
+#: templates/mails/mail-add-car-admin-notification.php:45
+#: templates/mails/mail-dealer-publish-notification.php:36
+#: templates/mails/mail-register-user.php:219
+msgid "Regards,"
+msgstr "Cordialement,"
+
+#: templates/mails/mail-dealer-publish-notification.php:20
+#, php-format
+msgid ""
+"Hello %1$s, Your vehicle has been successfully approved and published by "
+"Admin(%2$s)!"
+msgstr ""
+
+#: templates/mails/mail-dealer-publish-notification.php:24
+#, fuzzy
+#| msgid "Following are the Details:"
+msgid "Following is the vehicle link:"
+msgstr "Voici les détails:"
+
+#: templates/mails/mail-register-user.php:24
+#, php-format
+msgid "Hello %s, You are successfully registered!"
+msgstr ""
+
+#: templates/mails/mail-register-user.php:28
+#: templates/mails/mail-register-user.php:172
+#: templates/mails/mail-register-user.php:200
+msgid "Following are the details:"
+msgstr "Voici les détails:"
+
+#: templates/mails/mail-register-user.php:33
+#: templates/mails/mail-register-user.php:177
+#: templates/mails/mail-register-user.php:205
+#: templates/mails/mail-reset-psw-link.php:24
+#, php-format
+msgid "Username: %s"
+msgstr ""
+
+#: templates/mails/mail-register-user.php:43
+msgid ""
+"Please click on the below activation link in order to activate your account."
+msgstr ""
+
+#: templates/mails/mail-register-user.php:47
+msgid "Activation Link"
+msgstr ""
+
+#: templates/mails/mail-register-user.php:56
+#, fuzzy, php-format
+#| msgid "You are successfully registered!"
+msgid "Hello %s, Your account is successfully registered and activated!"
+msgstr "Vous êtes enregistré avec succès!"
+
+#: templates/mails/mail-register-user.php:60
+#: templates/mails/mail-register-user.php:91
+#: templates/mails/mail-register-user.php:122
+#: templates/mails/mail-register-user.php:144
+#, fuzzy
+#| msgid "Following are the details:"
+msgid "Following are the details: "
+msgstr "Voici les détails:"
+
+#: templates/mails/mail-register-user.php:65
+#: templates/mails/mail-register-user.php:96
+#: templates/mails/mail-register-user.php:127
+#: templates/mails/mail-register-user.php:149
+#, fuzzy, php-format
+#| msgid "Username"
+msgid "Username: %s "
+msgstr "Nom d&#39;utilisateur"
+
+#: templates/mails/mail-register-user.php:71
+#: templates/mails/mail-register-user.php:102
+#: templates/mails/mail-register-user.php:133
+#: templates/mails/mail-register-user.php:155
+#, fuzzy, php-format
+#| msgid "Email address"
+msgid "Email: %s "
+msgstr "Adresse e-mail"
+
+#: templates/mails/mail-register-user.php:81
+#: templates/mails/mail-register-user.php:112
+#, php-format
+msgid "Hello %s,"
+msgstr ""
+
+#: templates/mails/mail-register-user.php:85
+#, fuzzy
+#| msgid "You are successfully registered!"
+msgid ""
+"Your account is successfully registered with us. Your account status is "
+"pending for admin approval!"
+msgstr "Vous êtes enregistré avec succès!"
+
+#: templates/mails/mail-register-user.php:88
+msgid "Once admin approves your account, you can able to add vehicle etc."
+msgstr ""
+
+#: templates/mails/mail-register-user.php:116
+msgid "Your account is now approved and activated by admin."
+msgstr ""
+
+#: templates/mails/mail-register-user.php:119
+#, fuzzy
+#| msgid "Sorry! you can upload vehicle images at most "
+msgid "Now you can able to add a vehicle and manage the profile etc."
+msgstr "Pardon! vous pouvez télécharger des images de véhicule au maximum"
+
+#: templates/mails/mail-register-user.php:141
+#, fuzzy
+#| msgid "Hello, New user is registered!"
+msgid "Hello, New user is registered! "
+msgstr "Bonjour, Nouvel utilisateur est inscrit!"
+
+#: templates/mails/mail-register-user.php:159
+#, fuzzy
+#| msgid "Car Dealer"
+msgid "Role: Car Dealer "
+msgstr "Concessionnaire"
+
+#: templates/mails/mail-register-user.php:168
+#, php-format
+msgid "Hello, %s's dealer account is activated."
+msgstr ""
+
+#: templates/mails/mail-register-user.php:187
+#, fuzzy
+#| msgid "Car Dealer"
+msgid "Role: Car Dealer"
+msgstr "Concessionnaire"
+
+#: templates/mails/mail-register-user.php:196
+#, php-format
+msgid "Hello %s, Your dealer account is successfully activated!"
+msgstr ""
+
+#: templates/mails/mail-reset-psw-link.php:19
+msgid ""
+"This is the mail regarding password request. Please check the following "
+"details:"
+msgstr ""
+"C&#39;est le mail concernant la demande de mot de passe. Veuillez vérifier "
+"les détails suivants:"
+
+#: templates/mails/mail-reset-psw-link.php:28
+msgid "To reset your password, visit the following address:"
+msgstr "Pour réinitialiser votre mot de passe, visitez l&#39;adresse suivante:"
+
+#: templates/mails/mail-reset-psw-link.php:44
+msgid "Click here to reset your password"
+msgstr "Cliquez ici pour réinitialiser votre mot de passe"
+
+#: templates/my-user-account/form-edit-account.php:22
+msgid "Personal details"
+msgstr "Détails personnels"
+
+#: templates/my-user-account/form-edit-account.php:34
+msgid "Profile Img"
+msgstr "Profil Img"
+
+#: templates/my-user-account/form-edit-account.php:62
+msgid "Password change"
+msgstr "Changement de mot de passe"
+
+#: templates/my-user-account/form-edit-account.php:65
+msgid "Current password (leave blank to leave unchanged)"
+msgstr "Mot de passe actuel (laisser vide pour laisser inchangé)"
+
+#: templates/my-user-account/form-edit-account.php:69
+msgid "New password (leave blank to leave unchanged)"
+msgstr "Nouveau mot de passe (laisser vide pour laisser inchangé)"
+
+#: templates/my-user-account/form-edit-account.php:73
+msgid "Confirm new password"
+msgstr "Confirmer le nouveau mot de passe"
+
+#: templates/my-user-account/form-edit-account.php:79
+msgid "Social Profiles"
+msgstr "Profils sociaux"
+
+#: templates/my-user-account/form-edit-account.php:81
+msgid "Facebook"
+msgstr "Facebook"
+
+#: templates/my-user-account/form-edit-account.php:85
+msgid "Twitter"
+msgstr "Gazouillement"
+
+#: templates/my-user-account/form-edit-account.php:89
+msgid "LinkedIn"
+msgstr "LinkedIn"
+
+#: templates/my-user-account/form-edit-account.php:93
+msgid "Pinterest"
+msgstr "Pinterest"
+
+#: templates/my-user-account/form-edit-account.php:97
+msgid "Instagram"
+msgstr "Instagram"
+
+#: templates/my-user-account/form-edit-account.php:116
+msgid "Save changes"
+msgstr "Sauvegarder les modifications"
+
+#: templates/my-user-account/form-forgot-password.php:23
+msgid ""
+"Lost your password? Please enter your username or email address. You will "
+"receive a link to create a new password via email."
+msgstr ""
+"Mot de passe perdu? Veuillez saisir votre identifiant ou adresse mail. Vous "
+"recevrez un lien pour créer un nouveau mot de passe par email."
+
+#: templates/my-user-account/form-forgot-password.php:26
+msgid "Username or email"
+msgstr "Nom d&#39;utilisateur ou email"
+
+#: templates/my-user-account/form-forgot-password.php:40
+msgid "Send reset password link"
+msgstr "Envoyer le mot de passe de réinitialisation"
+
+#: templates/my-user-account/form-login.php:27
+msgid "Username or email address"
+msgstr "Nom d&#39;utilisateur ou adresse e-mail"
+
+#: templates/my-user-account/form-login.php:31
+#: templates/my-user-account/form-login.php:85
+msgid "Password"
+msgstr "Mot de passe"
+
+#: templates/my-user-account/form-login.php:46
+msgid "Remember me"
+msgstr "Souviens-toi de moi"
+
+#: templates/my-user-account/form-login.php:64
+msgid "Lost your password?"
+msgstr "Mot de passe perdu?"
+
+#: templates/my-user-account/form-login.php:72
+#: templates/my-user-account/form-login.php:121
+msgid "Register"
+msgstr "registre"
+
+#: templates/my-user-account/form-login.php:77
+msgid "Username"
+msgstr "Nom d&#39;utilisateur"
+
+#: templates/my-user-account/form-login.php:102
+#, php-format
+msgid ""
+"Your personal data will be used in mapping with the vehicles you added to "
+"the website, to manage access to your account, and for other purposes "
+"described in our <a href=\"%1$s\" class=\"cd-policy-terms\" target=\"_blank"
+"\">privacy policy</a>."
+msgstr ""
+
+#: templates/my-user-account/form-reset-user-password.php:20
+msgid "Enter a new password below."
+msgstr "Entrez un nouveau mot de passe ci-dessous."
+
+#: templates/my-user-account/form-reset-user-password.php:23
+msgid "New password"
+msgstr "Nouveau mot de passe"
+
+#: templates/my-user-account/form-reset-user-password.php:27
+msgid "Re-enter new password"
+msgstr "ré-entrez le nouveau mot de passe"
+
+#: templates/my-user-account/form-reset-user-password.php:46
+msgid "Save"
+msgstr "sauvegarder"
+
+#: templates/my-user-account/user-details-car-page.php:24
+#, fuzzy
+#| msgid "Welcome "
+msgid "Welcome"
+msgstr "Bienvenue"
+
+#: templates/my-user-account/user-details-car-page.php:27
+msgid "Logout?"
+msgstr "Connectez - Out?"
+
+#: templates/my-user-account/user-details.php:101
+#: templates/my-user-account/user-details.php:108
+msgid "Current Plan"
+msgstr ""
+
+#: templates/my-user-account/user-details.php:102
+msgid "Subscription Renewal"
+msgstr ""
+
+#: templates/my-user-account/user-details.php:105
+msgid "Get New Plan"
+msgstr ""
+
+#: templates/my-user-account/user-details.php:108
+msgid "Free Plan"
+msgstr ""
+
+#: templates/my-user-account/user-details.php:110
+#, fuzzy
+#| msgid "Update Details"
+msgid "Update Plan"
+msgstr "Mise à jour Détails"
+
+#~ msgid "Vehicle Year"
+#~ msgstr "Année du véhicule"
+
+#~ msgid "Vehicle Make"
+#~ msgstr "Marque de véhicule"
+
+#~ msgid "Vehicle Model"
+#~ msgstr "Modèle de véhicule"
+
+#~ msgid "Vehicle BodyStyle"
+#~ msgstr "BodyStyle de véhicule"
+
+#~ msgid "Vehicle Mileage"
+#~ msgstr "Kilométrage du véhicule"
+
+#~ msgid "Vehicle Fuel Economy"
+#~ msgstr "Économie de carburant des véhicules"
+
+#~ msgid "Vehicle Transmission"
+#~ msgstr "Transmission du véhicule"
+
+#~ msgid "Vehicle Condition"
+#~ msgstr "État du véhicule"
+
+#~ msgid "Vehicle Drivetrain"
+#~ msgstr "Transmission du véhicule"
+
+#~ msgid "Vehicle Engine"
+#~ msgstr "Moteur de véhicule"
+
+#~ msgid "Vehicle Exterior Color"
+#~ msgstr "Couleur extérieure du véhicule"
+
+#~ msgid "Vehicle Interior Color"
+#~ msgstr "Couleur intérieure du véhicule"
+
+#~ msgid "Vehicle Stock Number"
+#~ msgstr "Numéro de stock du véhicule"
+
+#~ msgid "Vehicle Vin Number"
+#~ msgstr "Numéro de vin du véhicule"
+
+#, fuzzy
+#~| msgid "Add Vehicle"
+#~ msgid "Add Vehicle aaa"
+#~ msgstr "Ajouter un véhicule"
+
+#~ msgid "Post Available"
+#~ msgstr "Post disponible"

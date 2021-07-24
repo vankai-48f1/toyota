@@ -1,0 +1,203 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Car Dealer VIN Query 1.4.0\n"
+"POT-Creation-Date: 2021-04-23 12:22+0530\n"
+"PO-Revision-Date: 2018-08-22 19:01+0530\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: en_US\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.4.2\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-KeywordsList: __;_e;_x;_ex;_n:1,2;_nx:1,2;_n_noop:1,2;_nx_noop:1,2;"
+"translate_nooped_plural;esc_html__;esc_html_e;esc_html_x;esc_attr__;"
+"esc_attr_e;esc_attr_x;number_format_i18n\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: vendor\n"
+"X-Poedit-SearchPathExcluded-1: .vscode\n"
+
+#: admin-ajax.php:14
+msgid "Something went wrong!"
+msgstr ""
+
+#: admin-ajax.php:19
+msgid "Nonce not valid, clear your cache and try again."
+msgstr ""
+
+#: admin-ajax.php:24
+msgid "Mapping saved successfully."
+msgstr ""
+
+#: classes/class-cardealer-vinquery-import.php:31
+msgid "Vehicle VINquery Import"
+msgstr ""
+
+#: classes/class-cardealer-vinquery-import.php:57
+#, php-format
+msgid "Return to <a href=\"%1$s\">Vehicle VINquery Import</a> page."
+msgstr ""
+
+#: classes/class-cardealer-vinquery-import.php:75
+msgid "Vehicles VIN Import"
+msgstr ""
+
+#: classes/class-cardealer-vinquery-import.php:101
+msgid ""
+"To import vehicles, drag and drop fields from the right column into the left "
+"column attributes and meta boxes. You can save current field mapping for "
+"future use. You can use saved field mapping to import vehicles again."
+msgstr ""
+
+#: classes/class-cardealer-vinquery-import.php:104
+#: classes/class-cardealer-vinquery-import.php:275
+msgid "Save current mapping"
+msgstr ""
+
+#: classes/class-cardealer-vinquery-import.php:105
+#: classes/class-cardealer-vinquery-import.php:276
+msgid "Import Vehicles"
+msgstr ""
+
+#: classes/class-cardealer-vinquery-import.php:115
+msgid "Vehicle Title"
+msgstr ""
+
+#: classes/class-cardealer-vinquery-import.php:116
+msgid "Attributes"
+msgstr ""
+
+#: classes/class-cardealer-vinquery-import.php:117
+msgid "Vehicle Images"
+msgstr ""
+
+#: classes/class-cardealer-vinquery-import.php:118
+#: classes/class-cardealer-vinquery-import.php:168
+msgid "Regular price"
+msgstr ""
+
+#: classes/class-cardealer-vinquery-import.php:119
+#: classes/class-cardealer-vinquery-import.php:169
+msgid "Tax Label"
+msgstr ""
+
+#: classes/class-cardealer-vinquery-import.php:120
+#: classes/class-cardealer-vinquery-import.php:170
+msgid "Fuel Efficiency"
+msgstr ""
+
+#: classes/class-cardealer-vinquery-import.php:121
+#: classes/class-cardealer-vinquery-import.php:171
+msgid "PDF Brochure"
+msgstr ""
+
+#: classes/class-cardealer-vinquery-import.php:122
+msgid "Video"
+msgstr ""
+
+#: classes/class-cardealer-vinquery-import.php:123
+msgid "Vehicle Status"
+msgstr ""
+
+#: classes/class-cardealer-vinquery-import.php:124
+#: classes/class-cardealer-vinquery-import.php:174
+msgid "Vehicle Overview"
+msgstr ""
+
+#: classes/class-cardealer-vinquery-import.php:125
+msgid "Features & Options"
+msgstr ""
+
+#: classes/class-cardealer-vinquery-import.php:126
+#: classes/class-cardealer-vinquery-import.php:176
+msgid "Technical Specifications"
+msgstr ""
+
+#: classes/class-cardealer-vinquery-import.php:127
+#: classes/class-cardealer-vinquery-import.php:177
+msgid "General Information"
+msgstr ""
+
+#: classes/class-cardealer-vinquery-import.php:128
+#: classes/class-cardealer-vinquery-import.php:178
+msgid "Vehicle Location"
+msgstr ""
+
+#: classes/class-cardealer-vinquery-import.php:129
+#: classes/class-cardealer-vinquery-import.php:179
+msgid "Excerpt(Short content)"
+msgstr ""
+
+#: classes/class-cardealer-vinquery-import.php:133
+msgid "Vehicle Titles"
+msgstr ""
+
+#: classes/class-cardealer-vinquery-import.php:167
+msgid "Vehicles Images"
+msgstr ""
+
+#: classes/class-cardealer-vinquery-import.php:172
+msgid "Video Link"
+msgstr ""
+
+#: classes/class-cardealer-vinquery-import.php:173
+msgid "Vehicle Status( sold/unsold )"
+msgstr ""
+
+#: classes/class-cardealer-vinquery-import.php:175
+msgid "Features Options"
+msgstr ""
+
+#: classes/class-cardealer-vinquery-import.php:206
+msgid "Regular Price"
+msgstr ""
+
+#: classes/class-cardealer-vinquery-import.php:216
+msgid "Sale Price"
+msgstr ""
+
+#: classes/class-cardealer-vinquery-import.php:233
+msgid "City MPG"
+msgstr ""
+
+#: classes/class-cardealer-vinquery-import.php:242
+msgid "Highway MPG"
+msgstr ""
+
+#: classes/class-cardealer-vinquery-import.php:283
+msgid "API Result"
+msgstr ""
+
+#: classes/class-cardealer-vinquery-import.php:313
+msgid "vehicle file"
+msgstr ""
+
+#: classes/class-cardealer-vinquery-import.php:314
+msgid "VIN #"
+msgstr ""
+
+#: classes/class-cardealer-vinquery-import.php:315
+msgid "Get vehicle details"
+msgstr ""
+
+#: classes/class-cardealer-vinquery-import.php:323
+#, php-format
+msgid ""
+"The VINquery API key is not set. Click <a href=\"%s\" target=\"_blank"
+"\">here</a> to set the VINquery API key."
+msgstr ""
+
+#: classes/class-cdvqi.php:336
+msgid "Congratulations, you successfully imported this vehicle details: "
+msgstr ""
+
+#: classes/class-cdvqi.php:337
+msgid "Untitled"
+msgstr ""
+
+#: classes/class-cdvqi.php:339
+msgid "Error importing your vehicle"
+msgstr ""

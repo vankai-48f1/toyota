@@ -1,0 +1,129 @@
+
+/* MAX WIDTH 1024 */
+@media ( max-width: 1024px ) {
+    .list-post-news {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .head-page-title h1 {
+        font-size: 34px;
+    }
+
+    .head-page-title h1::before {
+        width: 10px;
+        left: -20px;
+    }
+
+    .head-page-cover {
+        height: 30vh;
+    }
+
+    .wrap-branch-list {
+        position: static;
+    }
+
+    .map-branch-list {
+        width: 100%;
+        max-width: none;
+    }
+
+    .map-branch-list li {
+        display: block;
+        width: 100%;
+    }
+}
+
+/* MAX WIDTH 992 */
+@media ( max-width: 992px ) {
+    .list-post-news {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .news-header-ctn {
+        height: auto;
+        padding: 50px 0 30px 0;
+    }
+
+    .news-header-content {
+        position: static;
+    }
+
+    .news-header-content h1 {
+        font-size: 24px;
+    }
+
+    .vehicle-grade-content {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .banner-top .banner-ctn {
+        height: 240px;
+    }
+}
+
+/* MAX WIDTH 768 */
+@media ( max-width: 768px ) {
+    .list-post-news {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .head-page-title h1 {
+        font-size: 24px; 
+    }
+
+    .head-page-title h1::before {
+        width: 5px;
+        left: -15px;
+    }
+
+    .service-tab-content .car-form-row > div[class^="col-car"] {
+        width: 100%;
+    }
+
+    .list-tab-name {
+        margin-bottom: 25px;
+    }
+
+    .vehicle-grade-content {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .result-compare .car-form-row > div[class^="col-car"] {
+        width: 100%;
+    }
+
+    .wrap-field-cost-estimates .car-form-row > div[class^="col-car"] {
+        width: 100%;
+    }
+
+    .calculate-insurance-ctn .car-form-row > div[class^="col-car"] {
+        width: 100%;
+    }
+
+    .wrap-field-test-drive .car-form-row > div[class^="col-car"] {
+        width: 100%;
+    }
+
+    .wrap-field-service .car-form-row > div[class^="col-car"] {
+        width: 100%;
+    }
+
+    .wrap-field-loan-bank .car-form-row > div[class^="col-car"] {
+        width: 100%;
+    }
+
+    .head-page-cover {
+        height: 250px;
+    }
+}
+
+/* MAX WIDTH 576 */
+@media ( max-width: 576PX ) {
+    .list-post-news {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .head-page-cover {
+        height: 170px;
+    }
+}

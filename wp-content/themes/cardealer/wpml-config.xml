@@ -1,0 +1,64 @@
+<wpml-config>
+	<admin-texts>
+		<key name="car_dealer_options">
+			<key name="logo_text" />
+			<key name="search_placeholder_text" />
+			<key name="footer_text_left" />
+			<key name="footer_text_right" />
+			<key name="cars-listing-title" />
+			<key name="cars-details-title" />
+			<key name="cars-details-slug" />
+			<key name="cdfs-menu-label" />
+			<key name="cdfs_cars_available_lbl" />
+			<key name="blog_title" />
+			<key name="blog_subtitle" />
+			<key name="fourofour_page_title" />
+			<key name="fourofour_page_content_title" />
+			<key name="fourofour_page_content_subtitle" />
+			<key name="fourofour_page_content_description" />
+			<key name="maintenance_title" />
+			<key name="maintenance_subtitle" />
+			<key name="comingsoon_title" />
+			<key name="comingsoon_subtitle" />
+			<key name="sold_car_img" />
+			<key name="newsletter_description" />
+			<key name="cstfrm_lbl_first_name" />
+			<key name="cstfrm_lbl_middle_initial" />
+			<key name="cstfrm_lbl_last_name" />
+			<key name="cstfrm_lbl_email" />
+			<key name="cstfrm_lbl_mobile" />
+			<key name="cstfrm_lbl_phone" />
+			<key name="cstfrm_lbl_address" />
+			<key name="cstfrm_lbl_city" />
+			<key name="cstfrm_lbl_state" />
+			<key name="cstfrm_lbl_zip" />
+			<key name="cstfrm_lbl_preferred_contact" />
+			<key name="cstfrm_lbl_request_price" />
+			<key name="cstfrm_lbl_test_drive" />
+			<key name="cstfrm_lbl_date" />
+			<key name="cstfrm_lbl_time" />
+			<key name="cstfrm_lbl_friends_name" />
+			<key name="cstfrm_lbl_friends_email" />
+			<key name="cstfrm_lbl_your_name" />
+			<key name="cstfrm_lbl_your_email" />
+			<key name="cstfrm_lbl_message" />
+			<key name="cstfrm_lbl_street_address" />
+			<key name="cstfrm_lbl_preferred_email_address" />
+			<key name="cstfrm_lbl_daytime_phone_number" />
+			<key name="cstfrm_lbl_date_of_birth" />
+			<key name="cstfrm_lbl_living_arrangements" />
+			<key name="cstfrm_lbl_monthly_rent_mortgage_payment" />
+			<key name="cstfrm_lbl_social_security_number_ssn" />
+			<key name="cstfrm_lbl_employer_name" />
+			<key name="cstfrm_lbl_length_of_time_at_current_address" />
+			<key name="cstfrm_lbl_employer_phone" />
+			<key name="cstfrm_lbl_job_title" />
+			<key name="cstfrm_lbl_length_of_employment" />
+			<key name="cstfrm_lbl_annual_income" />
+			<key name="cstfrm_lbl_other_income_amount_monthly" />
+			<key name="cstfrm_lbl_other_income_source" />
+			<key name="cstfrm_lbl_privacy_agreement" />
+			<key name="cstfrm_lbl_include_additional_info" />
+		</key>
+	</admin-texts>
+</wpml-config>

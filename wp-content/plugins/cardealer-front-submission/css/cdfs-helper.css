@@ -1,0 +1,200 @@
+/*#header .menu .menu-inner a.listing_add_cart.heading-font { display: table-cell; vertical-align: middle; padding: 0 13px; color: #ffffff; font-size: 13px; text-transform: uppercase; }*/
+#header .menu .menu-inner div > .row a.listing_add_cart.heading-font:hover { color: #db2d2e; }
+#header.default-header.defualt .desktopTopFixed a.listing_add_cart.heading-font { color: #323232; }
+
+.cdfs_login, .cdfs_register { margin-bottom: 40px; }
+.cdfs-form-login .cdfs-Input, .register.cdfs-user-form .cdfs-Input { display: inline-block; border: 1px solid #e8e8e8; padding: 10px 12px; width: 100%; }
+.cdfs-form-login .cdfs-form__label-for-checkbox { margin-left: 10px; }
+
+/*account navigation*/
+nav.cdfs-my-user-account-navigation { background: #323232; }
+.cdfs-my-user-account-navigation ul { border-top: none; }
+.cdfs-my-user-account-navigation li { display: inline-block; padding-left: 4px; }
+.cdfs-my-user-account-navigation li.is-active a { color: #ffffff; background: #DB2E2D; padding: 7px 10px 10px; width: 100%; display: inline-block; }
+.cdfs-my-user-account-navigation li a { color: #ffffff; padding: 10px 10px 10px; display: inline-block; width: 100%; }
+.entry-content .cdfs-my-user-account-navigation ul { padding-left: 0; margin-left: 0; }
+.cdfs-MyAccount-content .cdfs-my-user-account-navigation { width: 100%; }
+.cdfs-my-user-account-navigation li.cars-available { float: right; background: #DB2E2D; padding: 10px 15px; color: #ffffff; font-size: 16px; }
+
+.section-left .profile-details ul li { display: block; margin-bottom: 5px; /*text-transform: capitalize;*/ }
+.cdfs-user-info .section-left .profile-img { display: inline-block; float: left; height: 150px; width: 200px; }
+.cdfs-user-info .section-left .profile-img img { width: auto; }
+.cdfs-user-info .section-left .profile-details { float: left; }
+/*.profile-details .personal-detail, .profile-details .social-details { float: left; display: inline-block; }*/
+.profile-details .social-details { margin-top: 15px; }
+.cdfs-user-info .section-right .pull-right > div strong { display: inline-block; width: 100%; font-size: 16px; }
+.cdfs-user-info .section-right .pull-right > div:first-child { padding-bottom: 15px; border-bottom: 1px dotted #ededed; margin-bottom: 15px; }
+.cdfs-user-info .section-right .pull-right > div a.heading-font.button { margin-top: 20px;padding: 10px 20px; }
+
+.section-left .profile-details ul.social-details li { display: inline-block; margin-right: 15px; }
+
+/*reset password*/
+.cdfs_lost_user_password p.cdfs-row .cdfs-Input { width: 30%; display: block; padding: 10px 12px; border: 1px solid #ddd; }
+
+/*Account details*/
+.cdfs-MyAccount-content { margin-top: 30px; }
+
+.cdfs-edit-account-form .cdfs-form-row { width: 48%; float: left; margin-bottom: 15px; margin-right: 15px; }
+.cdfs-edit-account-form .cdfs-form-row label { display: block; }
+.cdfs-edit-account-form.edit-account .cdfs-form-row .cdfs-Input { width: 100%; padding: 12px 18px; display: inline-block; border: 1px solid #dddddd; color: #999999; }
+.cdfs-edit-account-form .cdfs-form-row .cdfs-Input:focus { border-color: #DB2E2D; }
+
+.cdfs-edit-account-form.edit-account fieldset { margin-bottom: 20px; }
+.cdfs-edit-account-form.edit-account legend { font-weight: 600; color: #363636; }
+.cdfs-form .col-sm-12 .form-group > label { color: #363636; font-size: 16px; font-weight: 600; margin-top: 15px; }
+.cdfs-form .col-sm-12 .form-group .col-sm-4 label { display: inline-block; /*margin-top: 30px; margin-bottom: 15px;*/ }
+
+.cdfs-edit-account-form ul.cdfs_uploaded_files { display: inline-block;  padding: 0; margin: 0; margin-bottom: 15px; height: auto !important; }
+.cdfs-edit-account-form ul.cdfs_uploaded_files li { margin: 0; }
+.cdfs-edit-account-form ul.cdfs_uploaded_files li img.img-thumb { height: 144px; }
+
+.all-cars-list-arch .car-grid .car-image img, .product-listing .car-grid .car-image img { width: 100%; margin-bottom: 0; }
+
+/*cars listing*/
+.cdfs-cars-listing.product-listing .car-grid { position: relative; }
+.cdfs-cars-listing.product-listing .all-cars-list-arch .car-details { display: inline-block; width: 66%; padding: 0 15px; }
+.product-listing .car-grid .car-list ul { padding-left: 0; }
+.product-listing .car-details .price + a.button { top: 15px; }
+.car-details .list-inline .car-transmission-dots.is-truncated i { margin-right: 3px; }
+
+.car-status { margin-top: 10px; }
+.car-status span { font-weight: bold; }
+
+
+/*add car*/
+.cdfs_add_car_form .modal-header { padding: 0 15px 15px 0; margin-bottom: 15px; }
+.cdfs_add_car_form { display: inline-block; width: 100%; margin-bottom: 20px; }
+.cdfs_add_car_form #cdfs_car_form { padding: 0; border: none; }
+.wp-core-ui .quicktags-toolbar input.button.button-small { width: auto; }
+
+.cdfs-MyAccount-content .cdfs_uploaded_files .cdfs_delete_image span, .cdfs_add_car_page .cdfs_uploaded_files .cdfs_delete_image span, .cdfs-MyAccount-content .cdfs_uploaded_files .drop_img_item span { top: -5px; right: -5px; color: #fff; background: red; height: 20px; width: 20px; line-height: 19px; border-radius: 36px; text-align: center; }
+.cdfs_add_car_form ul.cdfs_uploaded_files li { padding: 0; border-radius: 0; margin: 0; margin-right: 10px; margin-bottom: 10px; }
+/*.cdfs_add_car_form .form-group { display: inline-block; width: 100%; }*/
+.cdfs_add_car_form .form-group input { border: 1px solid #dddddd; padding: 12px 18px; }
+
+.cdfs-form .form-group .col-sm-4 { padding: 0; }
+.cdfs_add_car_form .col-sm-12 { margin-bottom: 20px; display: inline-block; width: 100%; }
+/*.cdfs_add_car_form .col-sm-12 .form-group { margin-bottom: 20px; }*/
+.cdfs_add_car_form .col-sm-12 .form-group.cdfs_order { margin: 0; }
+.cdfs_add_car_form  ul.cdfs_uploaded_files { margin: 0; }
+
+.cardealer-error.woocommerce-error li { padding-left: 25px !important; }
+
+.cdfs_add_car_page button.button i { margin-left: 10px; padding: 0; }
+
+/*disabled btn*/
+.cdfs-submit-car.disabled {  opacity: 0.2; }
+
+/*cardealer-error*/
+.entry-content .cdfs .cardealer-error { padding: 1em 2em 1em 3.5em; margin: 0 0px 10px 0; position: relative; background-color: #f7f6f7; color: #515151; border-top: 3px solid #DB2E2D; list-style: none outside; width: auto; word-wrap: break-word; }
+.entry-content .cdfs .cardealer-error:before { content: "\f058"; color: #DB2E2D; font-family: "Font Awesome 5 Free"; display: inline-block; position: absolute; top: 15px; left: 30px; }
+
+ .entry-content .cdfs .cdfs-message{ padding: 1em 2em 1em 3.5em; margin: 0 0px 10px 0; position: relative; background-color: #f7f6f7; color: #515151; border-top: 3px solid #8fae1b; list-style: none outside; width: auto; word-wrap: break-word; }
+ .entry-content .cdfs .cdfs-message:before { content: "\f058"; color: #8fae1b; font-family: "Font Awesome 5 Free"; display: inline-block; position: absolute; top: 15px; left: 30px; }
+
+
+.cdfs-form-row.cdfs-msg.cardealer-error { color: #da4745; border: 1px solid #f3a2a1; padding: 12px 30px; background: #f9cac8; }
+.cdfs-form-row.cdfs-msg.cdfs-message { color: #328324; border: 1px solid #a0df98; padding: 12px 30px; background: #d4fecc; }
+.entry-content .cdfs-form-row.cdfs-msg.cardealer-error:before { top: 12px; left: 10px; }
+.entry-content .cdfs-form-row.cdfs-msg.cdfs-message:before { top: 12px; left: 10px; }
+
+/*captcha*/
+ div#login_captcha { margin-bottom: 30px; display: inline-block; width: 100%; }
+
+ .cdfs-reset-password .cdfs-form input.cdfs-input.cdhl_validate { width: 30%; display: block; padding: 12px 15px 12px 30px; border: 1px solid #ddd; }
+
+/*alert message*/
+ .jconfirm.jconfirm-white .jconfirm-box, .jconfirm.jconfirm-light .jconfirm-box { text-align: center; width: 70% }
+ .jconfirm.jconfirm-white .jconfirm-box .jconfirm-buttons, .jconfirm.jconfirm-light .jconfirm-box .jconfirm-buttons { float: inherit !important; }
+ .jconfirm .jconfirm-box div.jconfirm-title-c { color: #323232; padding-bottom: 10px !important; }
+ .jconfirm .jconfirm-box { padding: 15px 0 0; }
+ .jconfirm .jconfirm-box div.jconfirm-content-pane.no-scroll { color: #323232; }
+ .jconfirm.jconfirm-white .jconfirm-box .jconfirm-buttons button.btn-default, .jconfirm.jconfirm-light .jconfirm-box .jconfirm-buttons button.btn-default { background-color: #DB2E2D; color: #ffffff !important; font-size: 12px; }
+ .jconfirm.jconfirm-white .jconfirm-box .jconfirm-buttons button.btn-default:hover, .jconfirm.jconfirm-light .jconfirm-box .jconfirm-buttons button.btn-default:hover { background-color: #323232 !important; color: #ffffff !important; }
+
+
+
+ .cdfs_add_car_form .form-group li.cdfs-item { display: inline-block; margin-bottom: 5px; }
+ .cdfs_add_car_form .form-group .cdfs-item span.remove { background: red; border-radius: 30px; height: 18px; width: 18px; display: inline-block; color: #fff;
+  text-align: center; line-height: 15px; margin-right: 5px; }
+ .cdfs_add_car_form .form-group .cdfs-item a i { margin-right: 5px; }
+
+
+.cdfs-user-account .section-left { display: inline-block; }
+.cdfs-user-account .section-right { display: inline-block; margin-left: 5px; float: right; }
+.cdfs_add_car_page .cdfs-user-account { background: #f2f2f2; display: inline-block; width: 100%; padding: 20px 10px; border-top: 2px solid #ddd; margin-bottom: 15px; -webkit-box-shadow: 0px 10px 5px 0px rgba(221,221,221,0.5); -moz-box-shadow: 0px 10px 5px 0px rgba(221,221,221,0.5); box-shadow: 0px 10px 5px 0px rgba(221,221,221,0.5); }
+
+.cdfs_add_car_form .cdfs-user-account .col-sm-12 { margin-bottom: 0; }
+
+
+/*style-classic*/
+.cdfs-cars-listing .car-item .car-overlay-banner ul li a { font-size: 0; }
+.cdfs-cars-listing .car-item .car-overlay-banner ul li a i { font-size: 14px; line-height: 34px; }
+.cdfs-cars-listing.product-listing .car-grid .car-title { padding-right: 0; }
+.cdfs .cdfs-user-info { display: flex; width: 100%; }
+
+.cdfs-cars-listing .style-classic.car-grid .car-details .car-info-content { clear: both; width: 59%; display: inline-block; border-right: 3px solid #f5f5f5; padding-right: 10px; }
+.cdfs-cars-listing .style-classic.car-grid .car-details .car-info-content .vehicle-attributes-list { clear: inherit; width: 100%; display: inherit; border-right: 0px solid transparent; padding-right: inherit; }
+.cdfs-cars-listing .style-classic.car-grid .car-details .car-info-content .vehicle-attributes-list .vehicle-attributes { padding: 0; margin: 0; }
+.cdfs-cars-listing .style-classic.car-grid .car-bottom ul, .cdfs-cars-listing .style-classic.car-grid .car-bottom .car-bottom-actions ul { padding: 0; margin: 0; }
+.cdfs-cars-listing .style-classic.car-grid .car-bottom .car-vehicle-review-stamps img { padding: 0; margin: 0; }
+.cdfs-cars-listing.product-listing .all-cars-list-arch .style-classic.car-grid .car-details { width: 100%; padding: 0; }
+@media (max-width: 767px) {
+ .cdfs-cars-listing .style-classic.car-grid .car-bottom .car-bottom-actions li { margin-right: 5px; }
+.cdfs-MyAccount-content { margin-top: 60px; }
+}
+
+@media (max-width: 767px) {
+.cdfs-cars-listing .style-classic.car-grid .car-bottom .car-review-stamps img { margin-top: 5px; }
+.cdfs-my-user-account-navigation li.cars-available { margin-top: 2px; float: left; }
+}
+
+@media (max-width: 479px) {
+ .cdfs-user-info .profile-details ul { padding:  0; margin: 0; margin-top: 10px;}
+ .cdfs-cars-listing .style-classic.car-grid .car-details .car-info-content { width: 100%; border-right: 0; }
+ .cdfs-cars-listing.product-listing .car-details .price + a.button { left: 15px; right: inherit; }
+ .cdfs-cars-listing.product-listing .car-grid .car-details { margin-top: 60px; width: 100%; }
+ .cdfs-cars-listing.product-listing .all-cars-list-arch .style-classic.car-grid .car-details { margin-top: 10px; }
+}
+
+
+.cdfs-add-vehicle-toggle {
+	display: block;
+}
+.cdfs-add-vehicle-section .cdfs-add-vehicle-toggle .cdfs-add-vehicle-title {
+	margin: 0;
+	border-bottom: 1px solid #ccc;
+	font-weight: 400;
+	display: flex;
+	align-items: center;
+	padding: 5px 10px;
+	font-size: 20px;
+}
+.cdfs-add-vehicle-section:first-child .cdfs-add-vehicle-toggle .cdfs-add-vehicle-title {
+	border-top: 1px solid #ccc;
+}
+.cdfs-add-vehicle-toggle:not(.collapsed) .cdfs-add-vehicle-title {
+	background-color: #e7f1ff;
+	color: #db2d2e;
+}
+
+.cdfs-add-vehicle-toggle .cdfs-add-vehicle-title:after {
+	width: 1.25rem;
+	height: 1.25rem;
+	margin-left: auto;
+	content: "";
+	background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23212529'%3e%3cpath fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/%3e%3c/svg%3e");
+	background-repeat: no-repeat;
+	background-size: 1.25rem;
+	transition: transform .2s ease-in-out;
+	display: inline-block;
+}
+.cdfs-add-vehicle-toggle:not(.collapsed) .cdfs-add-vehicle-title:after {
+	transform: rotate(180deg);
+}
+.cdfs-add-vehicle-section .cdfs-add-vehicle-panel-body {
+	border-bottom: 1px solid #ccc;
+}
+.cdfs-add-vehicle-section .cdfs-add-vehicle-panel-body .cdfs-add-vehicle-panel-body-inner {
+	padding-top: 15px;
+}

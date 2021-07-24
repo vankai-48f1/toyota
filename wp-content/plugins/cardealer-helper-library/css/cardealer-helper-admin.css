@@ -1,0 +1,716 @@
+.notice.redux-message.redux-notice {
+	display: none;
+}
+#csv_items ul{
+    width: 200px !important;
+}
+#csv_items li{
+    padding:7px 10px;
+	display:block;
+}
+
+
+/** PDF Generator */
+/*
+.download .download-pdf {
+    padding: 6px 10px 7px;
+    background-color: #000;
+    border-radius: 8px;
+    color: #fff;
+    cursor: pointer;
+    white-space: nowrap;
+	float:left;
+}
+*/
+.admin-column-pdf-actions .spinner {
+	float: none;
+	height: 30px;
+}
+/*
+.downloadlink{
+	cursor: pointer;
+	background: black;
+	padding: 7px;
+	border-radius: 5px;
+	width:85px;
+}
+*/
+.downloadlink a{
+	color: white;
+	text-decoration: none;
+}
+
+fieldset.category{
+    border: 1px solid #CCC;
+    margin-bottom: 10px;
+	background:#ffffff;
+}
+
+ul.listing_category {
+    min-height: 20px;
+    list-style-type: none;
+    margin: 0;
+    padding:7px 10px;
+}
+ul.listing_category li{padding:7px 10px;}
+
+
+#csv_items{width:20%; float:left; margin-top:8px; margin-right:2%; height:800px; overflow-x:hidden; overflow-y:auto;}
+#csv_import{width:78%; float:left;}
+.category legend{padding-left:5px;}
+
+
+.ui-multiselect { padding:2px 0 2px 4px; text-align:left }
+.ui-multiselect span.ui-icon { float:right }
+.ui-multiselect-single .ui-multiselect-checkboxes input { position:absolute !important; top: auto !important; left:-9999px; }
+.ui-multiselect-single .ui-multiselect-checkboxes label { padding:5px !important }
+
+.ui-multiselect-header { margin-bottom:3px; padding:3px 0 3px 4px }
+.ui-multiselect-header ul { font-size:0.9em }
+.ui-multiselect-header ul li { float:left; padding:0 10px 0 0 }
+.ui-multiselect-header a { text-decoration:none }
+.ui-multiselect-header a:hover { text-decoration:underline }
+.ui-multiselect-header span.ui-icon { float:left }
+.ui-multiselect-header li.ui-multiselect-close { float:right; text-align:right; padding-right:0 }
+
+.ui-multiselect-menu { display:none; padding:3px; position:absolute; z-index:10000; text-align: left }
+.ui-multiselect-checkboxes { position:relative /* fixes bug in IE6/7 */; overflow-y:scroll }
+.ui-multiselect-checkboxes label { cursor:default; display:block; border:1px solid transparent; padding:3px 1px }
+.ui-multiselect-checkboxes label input { position:relative; top:1px }
+.ui-multiselect-checkboxes li { clear:both; font-size:0.9em; padding-right:3px }
+.ui-multiselect-checkboxes li.ui-multiselect-optgroup-label { text-align:center; font-weight:bold; border-bottom:1px solid }
+.ui-multiselect-checkboxes li.ui-multiselect-optgroup-label a { display:block; padding:3px; margin:1px 0; text-decoration:none }
+
+
+.ui-tabs-vertical{width: 55em; }
+.ui-tabs-vertical .ui-tabs-nav { padding: .2em .1em .2em .2em; float: left; width: 12em; }
+.ui-tabs-vertical .ui-tabs-nav li { clear: left; width: 100%; border-bottom-width: 1px !important; border-right-width: 0 !important; margin: 0 -1px .2em 0; }
+.ui-tabs-vertical .ui-tabs-nav li a { display:block; }
+.ui-tabs-vertical .ui-tabs-nav li.ui-tabs-active { padding-bottom: 0; padding-right: .1em; border-right-width: 1px; }
+.ui-tabs-vertical .ui-tabs-panel { padding: 1em; float: right; width: 40em;}
+
+.taxonomy-car_vehicle_review_stamps .form-field.term-parent-wrap, .taxonomy-car_vehicle_review_stamps .form-field.term-description-wrap {
+  display: none;
+}
+
+@media (max-width:1200px){
+	#csv_items{width:30%; height:1044px;}
+	#csv_import{width:60%;}
+	fieldset.category{width:30%;}
+}
+@media (max-width:992px){
+
+}
+@media (max-width:992px){
+	#csv_items{width:30%;}
+	#csv_import{width:68%;}
+}
+@media (max-width:767px){
+	#csv_items{width:34%; height:1365px;}
+	#csv_import{width:60%;}
+	fieldset.category{width:44%;}
+}
+@media (max-width:479px){
+	#csv_items{width:100%; margin-right:0;}
+	#csv_import{width:100%;}
+}
+
+/******************/
+fieldset.category{border: 1px solid #CCC; display: inline-block; margin-right: 10px; margin-bottom:10px; width:18%;}
+#items, ul.listing_category{width:150px; min-height:20px; list-style-type:none; margin: 0; padding:5px 0 10px 0; float:left; margin-right:10px;}
+#items{max-width: 30%; min-width: 300px;}
+.ui-state-highlight { margin-bottom: 0;}
+.ui-state-default .title{display:block; text-align:center; border-bottom:1px solid #2D2D2D; margin:0 4px; color:#2D2D2D; margin-bottom: 6px;
+font-size:16px;}
+.ui-state-default .inside_value{padding: 4px;}
+.ui-state-default .remove_element{position: absolute; right: 2px; top:2px;  cursor:pointer;}
+.ui-state-default .remove_element:hover{color:#000;}
+
+#items li, ul.listing_category li{margin:0 5px 5px 5px; padding:5px; width:125px; cursor:move; overflow:hidden; text-overflow:ellipsis;
+position: relative; vertical-align: top;}
+#items li{display: inline-block;}
+.error_text{padding: 10px 0;display: block;}
+/**form[name='vin_import_form']{position: fixed; display: none; right: 0;  max-height:500px;  overflow:scroll; overflow-x:hidden;}
+
+@media (max-width:1200px){
+	form[name='vin_import_form']{max-height:400px;}
+}
+@media (max-width:992px){
+	form[name='vin_import_form']{max-height:450px;}
+}
+@media (max-height:700px) and (min-height:600px){
+	form[name='vin_import_form']{max-height:400px;}
+}
+@media (max-width:767px){
+	form[name='vin_import_form']{max-height:inherit; position:relative;}
+}*/
+
+
+.price .old-price{text-decoration:line-through;}
+.price .new-price{font-weight:600;}
+
+
+#export-cars-list thead .sorting_disabled{background:#323232; color:#ffffff;}
+#export-cars-list .dealer-export{text-align:center;}
+#export-cars-list td i{color:#4FCF12; display:block; margin-bottom:5px; font-size:18px;}
+#posts-filter #the-list td .img-responsive{max-width:100%;}
+
+/*****************************/
+/* Car Import */
+/*****************************/
+#cdhl_csv_import > .cdhl-form-group{margin:5px 0; display:inline-block; width:100%;}
+#cdhl_csv_import > .cdhl-form-group > label{float:left; margin-top:5px;}
+#cdhl_csv_import > .cdhl-form-group > .cdhl-form-group{float:left; margin-left:10px;}
+#cdhl_csv_import > .cdhl-form-group.cdhl-duplicate-check-vin > label{float:none; margin-top:0;}
+#cdhl_csv_import > .cdhl-form-group > .cdhl_overwrite_existing_listing_images,
+#cdhl_csv_import > .cdhl-form-group.cdhl-duplicate-check-vin > .cdhl-form-group{float:none; margin:10px 0;}
+
+.cdhl-area-title{margin:13px 0;}
+.cdhl-area-title > h3{float:left; margin-top:5px; margin-bottom:0;}
+.cdhl-area-title .cdhl-button-group{float:right;}
+.clr{clear:both; height:0; font-size:0;}
+
+.cdhl-import-area-left{float:left; margin-right:2%; width:71%;}
+.cdhl-import-area-left .ui-tabs-vertical{width:100%; padding:0; background:#f9f9f9;}
+.cdhl-import-area-left .ui-tabs-vertical .ui-tabs-nav{width:22%; padding:0; background:none; border:none; position:relative;}
+.cdhl-import-area-left .ui-tabs-vertical .ui-tabs-nav li{border:none; background:none; border-bottom:1px solid #dfdfdf; margin:0; border-radius:0;}
+.cdhl-import-area-left .ui-tabs-vertical .ui-tabs-nav li a{padding:10px; line-height:18px; display:block; color:#0074a2;}
+
+.cdhl-import-area-left .ui-tabs-vertical .ui-tabs-nav li.ui-state-active{background:#ffffff; margin-bottom:0; position:relative; z-index:1;}
+.cdhl-import-area-left .ui-tabs-vertical .ui-tabs-nav li.ui-state-active a{color:#454545; float:none; outline:none;}
+.cdhl-import-area-left .ui-tabs-vertical .ui-tabs-nav li.ui-state-focus a{outline:none; box-shadow:none;}
+
+.cdhl-import-area-left .ui-tabs-panel .cdhl_attributes .cdhl_cars_attributes{padding:5px;}
+.cdhl-import-area-left .ui-tabs-panel .cdhl_attributes .cdhl_cars_attributes .ui-state-default{margin:0; padding:0 4%; width:91.5%;}
+
+.cdhl-import-area-left .ui-tabs-vertical .ui-tabs-panel{width:72%; min-height:670px; padding:3%; position:relative; background:#ffffff;}
+.cdhl-import-area-left .ui-tabs-vertical .ui-tabs-panel:before{content:""; position:absolute; left:-1px; top:0; width:1px; height:100%; border-right:1px solid #dfdfdf; z-index:0;}
+
+@media (max-width:1200px){
+	.cdhl-import-area-left .ui-tabs-vertical .ui-tabs-nav{width:30%;}
+	.cdhl-import-area-left .ui-tabs-vertical .ui-tabs-panel{width:64%;}
+}
+
+
+.cdhl-import-area-left .ui-tabs-panel .cdhl_attributes{float:left; margin-bottom:7px; width:50%;}
+.cdhl-import-area-left .ui-tabs-panel > .chosen-container{width:48% !important; margin-top:5px; margin-right:2%;}
+
+.cdhl-import-area-left .ui-tabs-panel .cdhl_attributes > label{margin-bottom:5px; display:block;}
+.cdhl-import-area-left .ui-tabs-panel .cdhl_attributes > div{width:95% !important;}
+
+.cdhl-import-area-right{float:left; width: 25%; background:#ffffff; padding:1%; margin-top:55px;}
+.cdhl-import-area-right #cdhl_csv_items{height:700px; width:100%; margin-top:0; margin-bottom:0; overflow:auto; overflow-x:hidden;}
+.cdhl-import-area-right #cdhl_csv_items .ui-sortable-handle,
+.cdhl_cars_attributes.cdhl_connected_sortable .ui-sortable-handle{padding:0 13px; margin-bottom:5px; font-size:13px; font-weight:600; cursor:pointer; border:1px solid #e5e5e5; width:90%; height:50px; line-height:50px;}
+.cdhl-import-area-right #cdhl_csv_items .ui-sortable-helper{cursor:move;}
+.cdhl-import-area-right #cdhl_csv_items .ui-sortable-handle:hover,
+.cdhl_cars_attributes.cdhl_connected_sortable .ui-sortable-handle:hover{border-color:#999999;}
+
+.cdhl_cars_attributes {
+    border:solid 1px;
+    min-height: 52px;
+    width: 90%;
+	border-style: dashed;
+	padding: 5px 0 0;
+	margin: 0 10px 0 0;
+	float: left;
+    list-style-type: none;
+
+}
+
+
+/*****************************/
+/* Car VIN Import */
+/*****************************/
+.cdhl_car_vin_import #cars_vin_import_form{width:100% !important;}
+.cdhl_car_vin_import .cdhl-import-area-left{width: 71%;}
+.cdhl_car_vin_import .cdhl-import-area-right{margin-top:127px; padding:1%;}
+.cdhl_car_vin_import #cars_vin_import_form .cdhl_form_data{border:1px dashed; float:left; list-style-type:none; margin:0 10px 0 0; min-height:52px; width:90%;}
+.cdhl_car_vin_import #cars_vin_import_form .cdhl_form_data .ui-state-default{padding:5px 10px; position:relative;}
+.cdhl_car_vin_import #cars_vin_import_form .cdhl_form_data .ui-state-default span{background:#000000; border-radius:50px; color:#fff; font-size:10px; height:15px; line-height:15px; position:absolute; right:-5px; text-align:center; top:-5px; width:15px; cursor:pointer;}
+
+@media (max-width:1400px){
+	.cdhl_car_vin_import #cdhl_vin_items li{width:40%;}
+}
+
+.cdhl_car_vin_import #cdhl_vin_items{height:700px; overflow:auto; padding:0; width:100%; min-width:100%; max-width:100%; margin:0;}
+.cdhl_car_vin_import #cdhl_vin_items .ui-state-default{padding:4px 2%; width:42%; margin-right:5px; float:left;}
+.cdhl_car_vin_import #cdhl_vin_items > h2,
+.cdhl_car_vin_import #cdhl_vin_items > h3,
+.cdhl_car_vin_import #cdhl_vin_items > h4,
+.cdhl_car_vin_import #cdhl_vin_items > h5{display: inline-block; margin:10px 0; width:100%;}
+
+.cdhl_car_vin_import #cdhl_vin_items .ui-sortable-helper{cursor:move;}
+.cdhl_car_vin_import #cdhl_vin_items .ui-sortable-handle:hover,
+.cdhl_car_vin_import #cdhl_vin_items .ui-sortable-handle:hover{border-color:#999999;}
+
+.cdhl_car_vin_import #cdhl_vin_items > .accordion_parent{width:96%; display:inline-block;}
+.cdhl_car_vin_import #cdhl_vin_items > .accordion_parent .ui-accordion-header{width:80%; border:none; margin:0; padding:8px 10%;}
+.cdhl_car_vin_import #cdhl_vin_items > .accordion_parent > .accordion_child{padding:0 8px;}
+.cdhl_car_vin_import #cdhl_vin_items > .accordion_parent > .accordion_child .ui-accordion-header{margin-top:8px;}
+.cdhl_car_vin_import #cdhl_vin_items > .accordion_parent > .accordion_child > .ui-accordion-content{padding:8px; max-height:256px; overflow:auto;}
+.cdhl_car_vin_import #cdhl_vin_items > .accordion_parent > .accordion_child > .ui-accordion-content .ui-state-default{margin-right:0; width:95%;}
+
+/*****************************/
+/* Dashboard Page */
+/*****************************/
+#browser-pie-chart-container,
+#device-chart-container,
+#mobile-device-container{margin:0 auto; margin-top:5px; margin-bottom:15px;}
+.postbox .chart-container{width:330px; margin:0 auto;}
+
+.chart-container{margin-bottom:10px;}
+.chart-container > div{text-align:center; font-weight:600;}
+
+/* Inquiry Graph */
+#cdhl_dashboard_widget .inside #display_by{margin-bottom:15px; min-width:120px; height:35px; padding-left:7px;}
+
+/* Google Analytics */
+#cdhl_dashboard_widget_ga .inside > div{display:inline-block; background:#3f4e62; color:#ffffff; font-size:14px; margin-bottom:8px; width:48%; margin-right: 3px; font-weight:500;}
+
+#cdhl_dashboard_widget_ga .inside .ga-users{background:#ff8762;}
+#cdhl_dashboard_widget_ga .inside .ga-pageviews{background:#56bdde;}
+#cdhl_dashboard_widget_ga .inside .ga-bouncerate{background:#b196d9;}
+#cdhl_dashboard_widget_ga .inside .ga-avg-sessionduration{background:#6dc7be;}
+#cdhl_dashboard_widget_ga .inside .ga-sessions{background:#00aeff;}
+#cdhl_dashboard_widget_ga .inside .ga-newusers{background:#ffd800;}
+#cdhl_dashboard_widget_ga .inside > div > i{display:block; float:left; font-size: 40px; padding:0px;}
+#cdhl_dashboard_widget_ga .inside > div > .number{display:block; float:right; font-size: 34px; font-weight:700; margin-right: 15px; margin-top:25px;}
+#cdhl_dashboard_widget_ga .inside > div > span{background:rgba(0,0,0,0.1); display:inline-block; width:90%; padding:5px 5%;}
+#cdhl_dashboard_widget_ga .inside #google-analytics{margin-top:10px;}
+
+/*Car List & Detail*/
+.goals .inside { padding: 0 0px 12px; }
+/*.goals .section-left span:last-child { padding-top: 0; }
+.goals .section-left span:frist-child { padding-bottom: 0; }*/
+.goals .section-right canvas { position: relative; top: -10px; padding: 9px 0 !important; }
+.goals .goal-header h4 { text-align: left; }
+.goals .goal-icons.inside .section-left.users span a { color: #0073aa; padding: 0 5px; background: #ffffff; transition: all 0.5s ease-in-out; -webkit-transition: all 0.5s ease-in-out; -o-transition: all 0.5s ease-in-out; -ms-transition: all 0.5s ease-in-out; -moz-transition: all 0.5s ease-in-out; }
+.goals .goal-icons.inside .section-left.users span a:hover { background: #0073aa; color: #ffffff; }
+
+.goals .goal-header { padding: 10px; background: #f1f1f1; margin-top: 10px; }
+.goals .goal-header h4 { margin-bottom: 0 !important; color: #3f4e62 !important; }
+.ui-dialog-titlebar-close:before { display: none; }
+
+
+#cdhl_dashboard_widget_ga.goals .inside > div span { background: #23282d; }
+
+#cdhl_dashboard_widget_ga.goals .inside > div.section-left span:last-child { padding-top: 2px; }
+#cdhl_dashboard_widget_ga.goals .inside > div.section-left span:frist-child { padding-bottom: 0; }
+
+#cdhl_dashboard_widget_ga.goals .inside > div.section-right span:last-child { padding-top: 0px; display: block; }
+#cdhl_dashboard_widget_ga.goals .inside > div.section-right span:frist-child { padding-bottom: 5px; display: block; }
+
+
+#cdhl_dashboard_widget_ga.goals .inside > div { background: #0073aa; }
+
+
+/*#cdhl_dashboard_widget_ga.goals:nth-child(1) .inside > div { background: #ff8762; }
+#cdhl_dashboard_widget_ga.goals:nth-child(2) .inside > div { background: #56bdde; }
+#cdhl_dashboard_widget_ga.goals:nth-child(3) .inside > div { background: #b196d9; }
+#cdhl_dashboard_widget_ga.goals:nth-child(4) .inside > div { background: #6dc7be; }
+#cdhl_dashboard_widget_ga.goals:nth-child(5) .inside > div { background: #00aeff; }
+#cdhl_dashboard_widget_ga.goals:nth-child(6) .inside > div { background: #ffd800; }
+#cdhl_dashboard_widget_ga.goals:nth-child(7) .inside > div { background: #fe80c0; }
+#cdhl_dashboard_widget_ga.goals:nth-child(8) .inside > div { background: #b24a7d; }
+#cdhl_dashboard_widget_ga.goals:nth-child(9) .inside > div { background: #76bcff; }
+#cdhl_dashboard_widget_ga.goals:nth-child(10) .inside > div { background: #8d708e; }
+#cdhl_dashboard_widget_ga.goals:nth-child(11) .inside > div { background: #807fff; }
+#cdhl_dashboard_widget_ga.goals:nth-child(12) .inside > div { background: #e74c3c; }
+#cdhl_dashboard_widget_ga.goals:nth-child(13) .inside > div { background: #16a085; }
+#cdhl_dashboard_widget_ga.goals:nth-child(14) .inside > div { background: #f1c40f; }
+#cdhl_dashboard_widget_ga.goals:nth-child(15) .inside > div { background: #27ae60; }
+#cdhl_dashboard_widget_ga.goals:nth-child(16) .inside > div { background: #1abc9c; }
+#cdhl_dashboard_widget_ga.goals:nth-child(17) .inside > div { background: #9b59b6; }
+#cdhl_dashboard_widget_ga.goals:nth-child(18) .inside > div { background: #3498db; }
+#cdhl_dashboard_widget_ga.goals:nth-child(19) .inside > div { background: #ff6d3a; }
+#cdhl_dashboard_widget_ga.goals:nth-child(20) .inside > div { background: #2ecc71; }
+#cdhl_dashboard_widget_ga.goals:nth-child(21) .inside > div { background: #32cdc7; }
+#cdhl_dashboard_widget_ga.goals:nth-child(22) .inside > div { background: #009a9a; }
+#cdhl_dashboard_widget_ga.goals:nth-child(23) .inside > div { background: #ff8762; }
+#cdhl_dashboard_widget_ga.goals:nth-child(24) .inside > div { background: #56bdde; }
+#cdhl_dashboard_widget_ga.goals:nth-child(25) .inside > div { background: #b196d9; }
+#cdhl_dashboard_widget_ga.goals:nth-child(26) .inside > div { background: #6dc7be; }
+#cdhl_dashboard_widget_ga.goals:nth-child(27) .inside > div { background: #00aeff; }
+#cdhl_dashboard_widget_ga.goals:nth-child(28) .inside > div { background: #ffd800; }
+#cdhl_dashboard_widget_ga.goals:nth-child(29) .inside > div { background: #fe80c0; }
+#cdhl_dashboard_widget_ga.goals:nth-child(30) .inside > div { background: #b24a7d; }
+#cdhl_dashboard_widget_ga.goals:nth-child(31) .inside > div { background: #76bcff; }
+#cdhl_dashboard_widget_ga.goals:nth-child(32) .inside > div { background: #8d708e; }
+#cdhl_dashboard_widget_ga.goals:nth-child(33) .inside > div { background: #807fff; }
+#cdhl_dashboard_widget_ga.goals:nth-child(34) .inside > div { background: #e74c3c; }
+#cdhl_dashboard_widget_ga.goals:nth-child(35) .inside > div { background: #16a085; }
+#cdhl_dashboard_widget_ga.goals:nth-child(36) .inside > div { background: #f1c40f; }
+#cdhl_dashboard_widget_ga.goals:nth-child(37) .inside > div { background: #27ae60; }
+#cdhl_dashboard_widget_ga.goals:nth-child(38) .inside > div { background: #1abc9c; }
+#cdhl_dashboard_widget_ga.goals:nth-child(39) .inside > div { background: #9b59b6; }
+#cdhl_dashboard_widget_ga.goals:nth-child(40) .inside > div { background: #3498db; }
+#cdhl_dashboard_widget_ga.goals:nth-child(41) .inside > div { background: #ff6d3a; }
+#cdhl_dashboard_widget_ga.goals:nth-child(42) .inside > div { background: #2ecc71; }
+#cdhl_dashboard_widget_ga.goals:nth-child(43) .inside > div { background: #32cdc7; }
+#cdhl_dashboard_widget_ga.goals:nth-child(44) .inside > div { background: #009a9a; }
+#cdhl_dashboard_widget_ga.goals:nth-child(45) .inside > div { background: #fe80c0; }
+#cdhl_dashboard_widget_ga.goals:nth-child(46) .inside > div { background: #b24a7d; }
+#cdhl_dashboard_widget_ga.goals:nth-child(47) .inside > div { background: #76bcff; }
+#cdhl_dashboard_widget_ga.goals:nth-child(48) .inside > div { background: #8d708e; }
+#cdhl_dashboard_widget_ga.goals:nth-child(49) .inside > div { background: #807fff; }
+#cdhl_dashboard_widget_ga.goals:nth-child(50) .inside > div { background: #e74c3c; }*/
+
+
+#cdhl_dashboard_widget_ga.goals .inside > div > .number { display: block; float: none; font-size: 34px; font-weight: 700; margin-right: 0;
+    margin-top: 0; margin-bottom: 30px; }
+#cdhl_dashboard_widget_ga.goals .inside > div > i { display: block; float: none; font-size: 40px;  padding: 0px; }
+
+
+#dashboard-widgets .postbox .inside { max-height: 1000px; overflow-y: auto; }
+
+.ui-dialog .ui-widget-header { background: #3f4e62; }
+.ui-dialog.ui-draggable .ui-dialog-titlebar { color: #fff; }
+
+/*dialog-content*/
+.ui-dialog .goal-sources.ui-dialog-content { padding: 0 !important; }
+.ui-dialog .ui-dialog-content.table { width: 100% !important; }
+.ui-dialog .ui-dialog-content.table tr th { padding: 10px 20px; text-align: left; background: #3f4e62; color: #fff; }
+.ui-dialog .ui-dialog-content.table tr td { padding: 7px 20px; background: #ffffff; border:1px solid #f1f1f1; }
+.ui-dialog .ui-widget-content.table tr { margin-bottom: 1px; }
+.pgs_goal_dialog.ui-dialog .ui-dialog-titlebar { padding: 0em 0em !important; position: absolute !important; background: transparent; border: none; z-index: 999; right: 16px; top: 10px; }
+.ui-dialog { padding: .5em !important; }
+.ui-dialog { max-height: 500px !important; overflow-y: auto !important; }
+.pgs_goal_dialog.ui-dialog .ui-dialog-titlebar-close { right: 12px !important; top: 24px !important; z-index: 999; }
+
+
+/* Browser Usage */
+#dashboard-widgets-wrap .postbox .inside .container{width:100%; padding:0;}
+#dashboard-widgets-wrap .postbox .inside .container:last-child .table{margin-bottom:0;}
+#dashboard-widgets-wrap .postbox .inside p{font-weight:700; margin:0; margin-bottom:8px; padding-left:2px;}
+#dashboard-widgets-wrap .postbox .inside .table{width:100%; text-align:left; border-bottom:none; margin-bottom:15px;}
+#dashboard-widgets-wrap .postbox .inside .table tr th{background:#3f4e62; padding:8px 10px; font-size:14px; color:#ffffff; font-weight:500;}
+#dashboard-widgets-wrap .postbox .inside .table tr td{background:#ffffff; padding:8px 10px; font-size:14px; border:1px solid #e8e8e8; border-top:none;}
+#dashboard-widgets-wrap .postbox .inside .table tr td:last-child{border-left:none;}
+#dashboard-widgets-wrap .postbox .inside .dashboard-comment-wrap p{font-weight: normal;}
+
+/* At a Glance */
+#dashboard_right_now .inside .main ul li.post-count{background:#16a085;}
+#dashboard_right_now .inside .main ul li.page-count{background:#e05d6f;}
+#dashboard_right_now .inside .main ul li.comment-count{background:#418bca;}
+#dashboard_right_now .inside .main ul li.comment-mod-count{background:#3f4e62;}
+#dashboard_right_now .inside .main ul li{color:#ffffff; padding:10px; margin:1%; width:43%; border-radius:3px;}
+#dashboard_right_now .inside .main ul li a{color:#ffffff; font-size:15px; line-height:26px;}
+#dashboard_right_now .inside .main ul li a:before{color:#ffffff; font-size:26px; padding-right:10px;}
+
+/*
+Always set the map height explicitly to define the size of the div
+element that contains the map. */
+.geo-map {
+	min-height: 700px;
+	width: 100%;
+	height: 100%;
+}
+
+.notice{position: relative;}
+.notice .cdhl-message-close{text-decoration: none; line-height: 20px;}
+.notice .cdhl-message-close:before {display: inline-block; vertical-align: top;}
+
+@media (max-width: 1330px) {
+ .redux-container .loader_message.content { padding-left: 400px; }
+ .download .download-pdf { padding: 6px 5px 7px; }
+}
+
+@media (max-width: 992px) {
+ .redux-container .loader_message.content { padding-left: 300px; }
+}
+
+.cdhl_import_list{ max-height: 500px;overflow-y: auto;display: inline-block; }
+.notice.cdhl-vehicle-import-recommendation .cdhl-vehicle-import-recommendation-title {
+	border-bottom: 1px solid #eee;
+	line-height: 35px;
+	margin-top: 3px;
+	margin-bottom: 5px;
+}
+.notice.cdhl-vehicle-import-recommendation p {
+	font-size: 15px;
+}
+.cdhl-vehicle-import-notes-title {
+	margin-bottom: 3px;
+	color: #323232;
+	font-size: 14px;
+}
+.cdhl-vehicle-import-notes {
+	margin-top:5px;
+	list-style:disc;
+	margin-left: 12px;
+}
+.cdhl_import_hidden{
+	display:none;
+	text-align:center;
+	background-color: #444;
+	opacity: 0.8;
+	z-index:9;
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	-webkit-transition: opacity .4s;
+	transition: opacity .4s;
+}
+div.cdhl-loader-img {
+	display: inline-block;
+	height: 100px;
+	width: 100px;
+	color: white;
+	font-size:20px;
+	top: 40%;
+	position: relative;
+}
+
+.cdhl_import_hidden img {
+	height: 100%;
+	width: 100%;
+}
+
+.redux-container .redux-main { border-left: 0; }
+.redux-container .redux-main #redux_ajax_overlay { opacity: 1; background: rgba(0, 0, 0, 0.7);  }
+.redux-container .loader_message.content { text-align: center; display: inline-block; left: 0; right: 0; position: absolute; text-align: center; top: 50%; transform: translateY(-50%); -webkit-transform: translateY(-50%); -o-transform: translateY(-50%); -ms-transform: translateY(-50%); -moz-transform: translateY(-50%); padding-left: 0; }
+.redux-container .loader_message.content h1, .redux-container .loader_message.content p { color: #ffffff; }
+
+@media only screen and (max-height: 600px) and (min-height: 300px) {
+.redux-container .loader_message.content { top: 70%; }
+}
+
+/* Header ThemeOption */
+#wpadminbar .ab-top-menu .wp-admin-bar-cardealer-link > .ab-item {
+	display: flex;
+}
+#wpadminbar .ab-top-menu .wp-admin-bar-cardealer-link > .ab-item a {
+	color: #eeeeee;
+}
+ #wpadminbar .ab-top-menu .wp-admin-bar-cardealer-link > .ab-item a:hover {
+ 	color: #00b9eb;
+}
+
+
+
+
+
+/*additional-attributes-page*/
+.additional-attributes-page .additional-attributes-data .edit-additional-attr:focus,
+.additional-attributes-page .additional-attributes-data .delete-attrfocus {
+box-shadow: none !important;
+}
+
+.additional-attributes-page .wp-list-table.widefat thead tr th {
+font-weight: bold !important;
+}
+
+.additional-attributes-page .postbox-header .add-new-additional-attributes-title {
+font-size: 14px;
+padding: 8px 12px;
+margin: 0;
+line-height: 1.4;
+}
+
+.additional-attributes-page #add_new_additional_attributes .spinner {
+float: none;
+margin-top: 0;
+}
+
+.additional-attributes-page #add_new_additional_attributes .regular-text {
+margin-right: 10px;
+}
+
+.additional-attributes-page .additional-attributes-data .regular-text {
+margin-right: 10px;
+}
+
+.additional-attributes-page .postbox .inside #col-left .form-table th {
+min-width: 90px;
+}
+
+.additional-attributes-page .postbox .inside #col-right {
+width: 60%;
+}
+
+.additional-attributes-page .additional-attributes-data .spinner {
+float: none;
+margin-top: 0;
+}
+
+/*core-attribute-page*/
+.cdhl-attributes-table .row-even {
+	background-color: #f6f7f7;
+}
+/*
+.core-attributes-page .core-attributes-data .edit-core-attr {
+	display: inline-block;
+}
+*/
+
+.core-attributes-page .wp-list-table.widefat thead tr th {
+font-weight: bold !important;
+}
+
+.core-attributes-page #add_new_additional_attributes .regular-text {
+margin-right: 10px;
+}
+
+.core-attributes-page .core-attributes-data .regular-text {
+margin-right: 10px;
+}
+
+.core-attributes-page .postbox .inside #col-left .form-table th {
+min-width: 90px;
+}
+
+.core-attributes-page .postbox .inside #col-right {
+width: 60%;
+}
+
+.core-attributes-page .core-attributes-data .spinner {
+float: none;
+margin-top: 0;
+}
+
+/*meta-box-sortables*/
+
+.meta-box-sortables .acf-field-repeater .description #reset-pdf-sample {
+	position: relative;
+}
+
+
+.meta-box-sortables .acf-field-repeater .description .spinner  {
+    float: none;
+    margin-top: 0;
+    position: absolute;
+    right: -140%;
+}
+
+/*postbox-add-new-attributes*/
+
+.postbox-add-new-attributes .form-table th{
+	width: 110px;
+}
+.postbox-add-new-attributes .regular-text {
+    width: 100%;
+}
+
+@media (max-width: 1100px) {
+
+	.postbox-add-new-attributes #col-left {
+		width: 100%;
+	}
+
+	.additional-attributes-page .postbox-add-new-attributes .inside #col-right{
+		width: 100%;
+	}
+	.postbox-add-new-attributes .inside #col-left .form-table td p {
+		margin-bottom: 20px;
+	}
+}
+
+#car_dealer_options-cars_listing_filters.redux-container-sorter ul,
+#car_dealer_options-export_cars.redux-container-sorter ul,
+#car_dealer_options-vehicle_compare_fields.redux-container-sorter ul {
+	width: calc( 33% - ( 20px + 15px ) );
+}
+#car_dealer_options-cars_listing_filters.redux-container-sorter ul li,
+#car_dealer_options-export_cars.redux-container-sorter ul li,
+#car_dealer_options-vehicle_compare_fields.redux-container-sorter ul li {
+	font-size: 11px;
+}
+
+.taxonomy-car_condition .wp-list-table .manage-column.column-label_color {
+	width: 50px;
+}
+
+.cardealer-vehicle-mileage-breakdown-wrapper td {
+	background-color: #cfc;
+	padding-left: 15px !important;
+	padding-right: 15px !important;
+}
+
+#cardealer-options-display-mileage-breakdown ul {
+	margin: 0;
+}
+#cardealer-options-display-mileage-breakdown ul li {
+	display: inline-block;
+	list-style: disc;
+	margin-right: 5px;
+}
+
+#cardealer-options-display-mileage-breakdown ul li::before {
+	content: "\25CF";
+	margin-right: 3px;
+}
+
+.cdhl-notice { background: #fff; border: 1px solid #c3c4c7; border-left-width: 4px; box-shadow: 0 1px 1px rgba(0, 0, 0, 0.04); margin: 5px 15px 2px; padding: 1px 12px; }
+.cdhl-notice p { margin: 0.5em 0; padding: 2px; }
+.cdhl-notice-error a { text-decoration: underline; }
+.cdhl-notice-updated a { padding-bottom: 2px; }
+.cdhl-notice-notice-alt { box-shadow: none; }
+.cdhl-notice-notice-large { padding: 10px 20px; }
+.cdhl-notice-notice-title { display: inline-block; color: #1d2327; font-size: 18px; }
+.cdhl-notice-success { border-left-color: #00a32a; }
+.cdhl-notice-success.cdhl-notice-alt { background-color: #edfaef; }
+.cdhl-notice-warning { border-left-color: #dba617; }
+.cdhl-notice-warning.cdhl-notice-alt { background-color: #fcf9e8; }
+.cdhl-notice-error { border-left-color: #d63638; }
+.cdhl-notice-error.cdhl-notice-alt { background-color: #fcf0f1; }
+.cdhl-notice-info { border-left-color: #72aee6; }
+.cdhl-notice-info.cdhl-notice-alt { background-color: #f0f6fc; }
+.cdhl-notice-icon p:before {
+    margin-right: 6px;
+	display: inline-block;
+	font: normal 20px/1 'dashicons';
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	vertical-align: top;
+	color: #d63638;
+}
+.cdhl-notice-icon-update p:before {	content: "\f463"; }
+.cdhl-notice-icon-info p:before {	content: "\f348"; }
+.wrap .cdhl-notice { margin: 5px 0 15px; }
+
+/* Widgets */
+.widgets-holder-wrap .widget-content .pgs-widget-field {
+	margin-top: 13px;
+	margin-bottom: 13px;
+}
+.widgets-holder-wrap .widget-content .pgs-widget-field label {
+	margin-bottom: 3px;
+	display: block;
+}
+.widgets-holder-wrap .widget-content .pgs-widget-field .widget-field-desc {
+	margin-top: 2px;
+	display: block;
+	color: #9f9f9f;
+}
+
+body.post-type-cars table.wp-list-table .manage-column.column-column-thumb {
+	width: 52px;
+	text-align: center;
+	white-space: nowrap;
+}
+body.post-type-cars table.wp-list-table td.column-thumb img {
+	margin: 0;
+	width: auto;
+	height: auto;
+	max-width: 40px;
+	max-height: 40px;
+	vertical-align: middle;
+}
+
+.wp-core-ui .button-danger {
+	background: #d63638;
+	border-color: #d63638;
+	color: #fff;
+	text-decoration: none;
+	text-shadow: none;
+}
+.wp-core-ui .button-danger:focus,
+.wp-core-ui .button-danger:hover {
+	background: #b32d2e;
+	border-color: #b32d2e;
+	color: #fff;
+	box-shadow: none;
+}

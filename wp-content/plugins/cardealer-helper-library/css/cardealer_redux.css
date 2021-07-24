@@ -1,0 +1,156 @@
+/******************************
+  Theme Design Setting 
+ *****************************/
+.redux-container .redux-sidebar{width:250px;}
+.redux-container .redux-main{margin-left:250px;}
+
+.redux-container{background-image:-moz-linear-gradient(top, #23282d 0%, #23282d 100%);background-image:-webkit-gradient(linear, left top, left bottom, color-stop(0%, #23282d), color-stop(100%, #23282d));background-image:-webkit-linear-gradient(top, #23282d 0%, #23282d 100%);background-image:-ms-linear-gradient(top, #23282d 0%, #23282d 100%);background-image:-o-linear-gradient(top, #23282d 0%, #23282d 100%);filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#23282d', endColorstr='#23282d', GradientType=0);background-image:-linear-gradient(top, #23282d 0%, #23282d 100%);}
+.wp-toolbar .wp-admin.woocommerce{background:#fcfcfc;} 
+.redux-main{border-left:none;}
+.redux-sidebar .redux-group-menu li a{padding-top:12px; padding-bottom:12px; font-weight:500; color:#ffffff; opacity:0.9; border:none;}
+.redux-sidebar .redux-group-menu i{font-size:1.2em;}
+.redux-sidebar .redux-group-menu li.active a,
+.redux-sidebar .redux-group-menu li.active a:hover,
+.redux-sidebar .redux-group-menu li.hasSubSections.activeChild a{background:#0374aa; color:#ffffff !important; width:232px;}
+.redux-sidebar .redux-group-menu li.active a i,
+.redux-sidebar .redux-group-menu li.hasSubSections.activeChild a i{color:#ffffff;}
+.redux-sidebar .redux-group-menu li a:hover{background:#191e23; color:#00afde; opacity:1;}
+
+/* Sub Menu */
+.redux-sidebar .redux-group-menu li ul.subsection{padding:0px 0; background:#32373c;}
+.admin-color-fresh .redux-sidebar .redux-group-menu li.activeChild.hasSubSections a, .wp-customizer .redux-sidebar .redux-group-menu li.activeChild.hasSubSections a{background:#0374aa; text-shadow:none;}
+.admin-color-fresh .redux-sidebar .redux-group-menu li.activeChild.hasSubSections ul.subsection li a, .wp-customizer .redux-sidebar .redux-group-menu li.activeChild.hasSubSections ul.subsection li a{background:#32373c; color:#b8bcc2; padding-top:8px; padding-bottom:8px;}
+.admin-color-fresh .redux-sidebar .redux-group-menu li.activeChild.hasSubSections ul.subsection li.active a, .wp-customizer .redux-sidebar .redux-group-menu li.activeChild.hasSubSections ul.subsection li.active a{background:#1192d0; text-shadow:none; font-size:13px; color:#ffffff; font-weight:600;}
+
+.admin-color-fresh .redux-sidebar .redux-group-menu li.activeChild ul.subsection li.active a, .admin-color-fresh .redux-sidebar .redux-group-menu li.activeChild ul.subsection li.active a i, .admin-color-fresh .redux-sidebar .redux-group-menu li ul.subsection li a:hover i, .admin-color-fresh .redux-sidebar .redux-group-menu li.active.hasSubSections ul.subsection li a:hover, .admin-color-fresh .redux-sidebar .redux-group-menu li.activeChild.hasSubSections ul.subsection li a:hover, .wp-customizer .redux-sidebar .redux-group-menu li.active.hasSubSections ul.subsection li a:hover, .wp-customizer .redux-sidebar .redux-group-menu li.activeChild.hasSubSections ul.subsection li a:hover{ color:#fff !important;}
+
+.redux-main{background:#ffffff;}
+.redux-container .redux-group-tab{padding:15px;}
+
+/* Info Bar */
+.redux-container #info_bar{background:#ffffff; padding:15px;}
+.redux-container #info_bar .button{border-radius:0; margin-left:2px;}
+
+.redux-container #redux-footer{background:#ffffff !important; padding:15px 10px;}
+.redux-container #redux-footer .redux-action_bar{padding-right:5px;}
+.redux-container #redux-footer .button{border-radius:0; margin-left:5px;}
+
+.redux-container .redux-group-tab h3 {background:#fcfcfc; line-height:24px; border:1px solid #ededed; border-left:4px solid #e8e8e8; margin-left:-3px; padding:15px 20px; -webkit-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1); -moz-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1); box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);}
+
+.redux-main .redux-container-background .upload{padding:8px 15px;}
+.redux-container .ui-button, .control-section-redux .ui-button, .control-panel-redux .ui-button, .redux-metabox .ui-button{
+border-radius:0 !important; margin-right:5px !important; padding:7px 15px 7px !important; height:32px; box-shadow:none !important;}
+.redux-container .redux-group-tab .wp-color-result{height:30px;}
+.redux-container .redux-group-tab .wp-color-result:after{line-height:30px; font-size:12px; padding:0 10px;}
+.redux-container .redux-group-tab .wp-picker-input-wrap .wp-color-picker{padding:0 7px;}
+.redux-container .redux-group-tab .wp-picker-input-wrap .button{height:30px;}
+
+.redux-main .redux-group-tab .form-table .redux-container-color .wp-picker-container{display: inline-block;}
+.redux-main .redux-group-tab .form-table .redux-container-color .color-transparency-check{vertical-align: top; padding-top: 8px;}
+.redux-main .redux-group-tab .form-table .redux-container-color .wp-color-result{margin-right: 7px;}
+
+.rtl .redux-main .form-table{display:table-cell;}
+.rtl .redux-notice-field.redux-info{display:table;}
+
+.redux-container-radio input[type=radio].radio{
+	position:absolute; 
+	z-index:-1000; 
+	left:-1000px; 
+	overflow:hidden; 
+	clip:rect(0 0 0 0); 
+	height:1px; 
+	width:1px; 
+	margin:-1px; 
+	padding:0; 
+	border:0;
+}
+.redux-container-radio input[type=radio].radio + span{
+	padding-left:30px;
+	height:20px; 
+	display:inline-block;
+	line-height:20px;
+	background-repeat:no-repeat;
+	background-position: 0 0;
+	font-size:14px;
+	vertical-align:middle;
+	cursor:pointer;
+}
+.redux-container-radio input[type=radio].radio:checked + span{
+	background-position: 0 -20px;
+}
+.redux-container-radio span{
+	background-image:url(img/radio-bg.png);
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}
+.sample-data-item.disable-non-default::after {
+ content: "\ ";
+ position: absolute;
+ top: 0;
+ left: 0;
+ right: 0;
+ bottom: 0;
+ background-color: #000;
+ opacity: .7;
+}
+
+
+/* Site Logo */
+.redux-container .redux-main .mini, .redux-container .redux-main input[type=text].mini {
+	min-height: 30px;
+	border-color: #cccccc;
+}
+
+/* Site Footer */
+.wp-picker-container .wp-color-result.button {
+    min-height: inherit;
+}
+
+
+/* Responsive CSS */
+@media (max-width: 600px){
+	.redux-sidebar{width:44px;}
+	.redux-main{margin-left:44px;}
+}
+
+.pgs_dialog .ui-dialog-titlebar-close:before{content:normal;}
+
+/* Preloader Images */
+#car_dealer_options-predefined_loader_img .redux-image-select > li{width:14.5%; margin-right:5% !important; margin-bottom:20px !important;}
+
+
+.redux-container .select2-container .select2-selection--single {height: 30px;}
+.redux-container .redux-main .wp-picker-container .wp-color-result {height: 30px !important;}
+
+#sticky_logo_font .select_wrapper.typography-family {
+	display: none;
+}
+
+
+.redux-container .redux-container-sortable ul.checkbox li {
+	border: none;
+	padding: 0;
+}
+.redux-container .redux-container-sortable .checkbox-container {
+    width: 364px;
+}
+.redux-container .redux-container-sortable ul.checkbox li.invisible {
+    visibility: visible;
+}
+
+/* Wordpress New Version */
+.admin-color-fresh .redux-container .ui-buttonset .ui-button > .ui-checkboxradio-icon {
+    display: none;
+}
+.ui-autocomplete.cardealer-reduxoptions-result > li .ui-state-active {
+	border-color: transparent;
+    background: none;
+    color: inherit;
+}
+#customize-theme-controls .control-section .redux-container-button_set .ui-button .ui-checkboxradio-icon {
+	display: none;
+}

@@ -1,0 +1,12 @@
+## Version 1.0.3 (February 10, 2020)
+* Fixed PHPCS
+
+## Version 1.0.2 (December 13, 2019)
+* Fixed: JavaScript error in WordPress 5.3.
+* Various Minor code/formatting improvements and fixes.
+
+## Version 1.0.1 (August 30, 2018)
+* Added: Language Files.
+
+## Version 1.0.0 (February 15, 2018)
+* Initial release

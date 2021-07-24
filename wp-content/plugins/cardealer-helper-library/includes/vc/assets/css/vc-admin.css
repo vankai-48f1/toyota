@@ -1,0 +1,156 @@
+.vc_edit_form_elements .vc_wrapper-param-type-cd_radio_image .image_picker_selector .image_picker_image
+.wpb_el_type_cd_heading .wpb_element_label {
+	display: none;
+}
+.wpb_el_type_cd_heading .wpb_vc_param_value {
+	margin: 0;
+}
+
+/*
+ * Admin Label
+ * */
+.vc_admin_label {
+	display: block !important;
+}
+.vc_admin_label label {
+  color: #000;
+  font-weight: bold;
+}
+
+/*
+ * Param Group Formatting
+ * */
+.vc_param_group-list {
+	margin-top: 0;
+}
+.vc_param.wpb_vc_row {
+	border: 1px solid #ccc;
+	margin-bottom: 0;
+}
+.vc_param.wpb_vc_row + .vc_param.wpb_vc_row {
+	border-top: 0 none;
+}
+.vc_param.wpb_vc_row .wpb_vc_column.wpb_sortable {
+	margin-bottom: 0;
+}
+.vc_param-group-admin-labels {
+  font-size: 12px;
+  font-style: normal;
+}
+.vc_param-group-admin-labels label {
+  color: #888;
+  font-weight: bold;
+}
+
+
+/*
+ * Param : cd_html
+ * */
+.vc_edit_form_elements .vc_column.vc_wrapper-param-type-cd_html,
+.vc_edit_form_elements .vc_column-with-padding.vc_wrapper-param-type-cd_html {
+  font-size: 12px;
+  padding-top: 0 !important;
+}
+.vc_wrapper-param-type-cd_html .wpb_element_label {
+  display: none;
+}
+
+/*
+ * Image Select field param styles
+ */
+
+.vc_edit_form_elements .vc_wrapper-param-type-cd_radio_image .image_picker_selector .image_picker_image {
+	max-width: 100%;
+}
+ 
+ul.thumbnails.image_picker_selector {
+    /*overflow: auto;*/
+    list-style: none outside none;
+    padding: 0;
+    margin: 0;
+}
+
+ul.thumbnails.image_picker_selector:before,
+ul.thumbnails.image_picker_selector:after {
+	content: " ";
+	display: table;
+}
+
+ul.thumbnails.image_picker_selector:after {
+	clear: both;
+}
+
+ul.thumbnails.image_picker_selector ul {
+    overflow: auto;
+    list-style: none outside none;
+    padding: 0;
+    margin: 0;
+}
+
+ul.thumbnails.image_picker_selector li.group_title {
+    float: none;
+}
+
+ul.thumbnails.image_picker_selector li {
+    margin: 0 12px 12px 0;
+    float: left;
+}
+
+ul.thumbnails.image_picker_selector li .thumbnail {
+	position: relative;
+    border: 2px solid #dddddd;
+    transition : border 200ms ease-out;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    cursor: pointer;
+}
+
+.thumbnails.image_picker_selector .thumbnail {
+	width: 100px;
+}
+
+ul.thumbnails.image_picker_selector li .thumbnail img {
+    -webkit-user-drag: none;
+}
+
+ul.thumbnails.image_picker_selector li .thumbnail:hover .image-picker-tooltip, .wpb_el_type_dfd_check_layout label:hover .image-picker-tooltip,
+.wpb_el_type_dfd_form_preset_select label:hover .image-picker-tooltip{
+	opacity: 1;
+	visibility: visible;
+}
+
+ul.thumbnails.image_picker_selector li .thumbnail .image-picker-tooltip, .wpb_el_type_dfd_check_layout .image-picker-tooltip,
+.wpb_el_type_dfd_form_preset_select .image-picker-tooltip{
+    position: absolute;
+	top: 100%;
+	left: 50%;
+	padding: 5px 10px;
+	margin-top: 5px;
+	text-transform: capitalize;
+	color: #fff;
+	background: #1b1b1b;
+	-webkit-border-radius: 2px;
+	-moz-border-radius: 2px;
+	-ms-border-radius: 2px;
+	-o-border-radius: 2px;
+	border-radius: 2px;
+	white-space: nowrap;
+	opacity: 0;
+	visibility: hidden;
+	z-index: 2;
+	-webkit-transform: translateX(-50%);
+	-moz-transform: translateX(-50%);
+	-ms-transform: translateX(-50%);
+	-o-transform: translateX(-50%);
+	transform: translateX(-50%);
+	-webkit-transition: opacity .3s ease 0s, visibility .3s ease 0s;
+	-moz-transition: opacity .3s ease 0s, visibility .3s ease 0s;
+	-ms-transition: opacity .3s ease 0s, visibility .3s ease 0s;
+	-o-transition: opacity .3s ease 0s, visibility .3s ease 0s;
+	transition: opacity .3s ease 0s, visibility .3s ease 0s;
+}
+
+ul.thumbnails.image_picker_selector li .thumbnail.selected {
+    border: 2px solid #454545;
+}

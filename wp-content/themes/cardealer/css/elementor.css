@@ -1,0 +1,453 @@
+
+/*=================================================
+[  Table Of Contents ] 
+===================================================
+
+:: General
+:: Buttons
+:: Call to Action
+:: Counter
+
+
+===================================================
+[ End Table Contents ]
+=================================================*/
+
+
+/*===============================================*/
+/* General - CSS */
+/*===============================================*/
+
+
+/*===============================================*/
+/* Button - Shortcode */
+/*===============================================*/
+.cdhl_button_wrapper {
+	display: block;
+}
+.button {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    font-size: 14px;
+    line-height: 22px;
+    text-align: center;
+    border: 0px solid transparent;
+    background: #db2d2e;
+    color: #ffffff;
+    text-transform: capitalize;
+    vertical-align: middle;
+    padding: 10px 20px;
+    overflow: hidden;
+    -ms-transform: perspective(1px) translateZ(0);
+    -o-transform: perspective(1px) translateZ(0);
+    -moz-transform: perspective(1px) translateZ(0);
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+}
+.button:before {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: #323232;
+    -webkit-transform: translateY(100%);
+    -moz-transform: translateY(100%);
+    transform: translateY(100%);
+    -webkit-transition: all 0.5s ease-out 0s;
+    -moz-transition: all 0.5s ease-out 0s;
+    transition: all 0.5s ease-out 0s;
+}
+.button:hover,
+.button:focus,
+.button:active {
+    color: #ffffff;
+}
+input.button:hover {
+    background: #323232;
+    -webkit-transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;
+}
+.button:hover:before,
+.button:focus:before,
+.button:active:before {
+    -webkit-transform: scaleY(1);
+    -moz-transform: scaleY(1);
+    transform: scaleY(1);
+    -webkit-transition-timing-function: cubic-bezier(0.52, 1.64, 0.37, 0.50);
+    -moz-transition-timing-function: cubic-bezier(0.52, 1.64, 0.37, 0.50);
+    transition-timing-function: cubic-bezier(0.52, 1.64, 0.37, 0.50);
+}
+
+/*----------------------*/
+/* Button Icon */
+/*----------------------*/
+.icon-position-left {
+	margin-right: 10px;
+}
+.icon-position-right {
+	margin-left: 10px;
+}
+
+/*----------------------*/
+/* Button Size */
+/*----------------------*/
+.button.large {
+    padding: 14px 30px;
+}
+.button.small {
+    padding: 8px 20px;
+}
+.button.extra-small {
+    padding: 6px 16px;
+    font-size: 12px;
+}
+
+/*----------------------*/
+/* Button Border */
+/*----------------------*/
+.button.border {
+    background: transparent;
+    border: 1px solid #e3e3e3;
+    color: #323232;
+}
+.button.border:before {
+    background: #db2d2e;
+}
+.button.border:hover,
+.button.border:focus,
+.button.border:active {
+    color: #ffffff;
+    border-color: #db2d2e;
+}
+
+/*----------------------*/
+/* Button Aligment */
+/*----------------------*/
+.cdhl_button_wrapper.align-left {
+	text-align: left;
+}
+.cdhl_button_wrapper.align-center {
+	text-align: center;
+}
+.cdhl_button_wrapper.align-right {
+	text-align: right;
+}
+.cdhl_button_wrapper.btn-block .button {
+	width: 100%;
+}
+
+/*===============================================*/
+/* Call to Action - Shortcode */
+/*===============================================*/
+.call-to-action {
+    background: #f6f6f6;
+    position: relative;
+    -webkit-transition: all 0.3s ease-out 0s;
+    -moz-transition: all 0.3s ease-out 0s;
+    -ms-transition: all 0.3s ease-out 0s;
+    -o-transition: all 0.3s ease-out 0s;
+    transition: all 0.3s ease-out 0s;
+    z-index: 1;
+    overflow: hidden;
+}
+.call-to-action .action-info {
+    position: relative;
+    z-index: 9;
+}
+.call-to-action i {
+    font-size: 48px;
+    line-height: 100px;
+    color: #db2d2e;
+    width: 100%;
+    -webkit-transition: all 0.3s ease-out 0s;
+    -moz-transition: all 0.3s ease-out 0s;
+    -ms-transition: all 0.3s ease-out 0s;
+    -o-transition: all 0.3s ease-out 0s;
+    transition: all 0.3s ease-out 0s;
+}
+.call-to-action h5 {
+    text-transform: uppercase;
+    padding: 0 0 10px;
+    margin-top: 0;
+    -webkit-transition: all 0.3s ease-out 0s;
+    -moz-transition: all 0.3s ease-out 0s;
+    transition: all 0.3s ease-out 0s;
+}
+.call-to-action p {
+    font-weight: 400;
+    padding: 15px 20px;
+    -webkit-transition: all 0.3s ease-out 0s;
+    -moz-transition: all 0.3s ease-out 0s;
+    transition: all 0.3s ease-out 0s;
+}
+.call-to-action a {
+    display: block;
+    font-size: 14px;
+    font-weight: 100;
+    color: #808080;
+    margin: 25px 0 15px;
+    position: relative;
+    z-index: 3;
+    line-height: 14px;
+}
+.call-to-action .action-img {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    top: 0;
+    z-index: 0;
+    opacity: 0;
+    z-index: 0;
+    background-size: cover;
+    background-position: center center;
+    -webkit-transition: all 0.3s ease-out 0s;
+    -moz-transition: all 0.3s ease-out 0s;
+    -ms-transition: all 0.3s ease-out 0s;
+    -o-transition: all 0.3s ease-out 0s;
+    transition: all 0.3s ease-out 0s;
+}
+.call-to-action .border {
+    position: absolute;
+    background: #db2d2e;
+    height: 0px;
+    bottom: 0;
+    left: 0;
+    z-index: 2;
+    width: 100%;
+    -webkit-transition: all 0.3s ease-out 0s;
+    -moz-transition: all 0.3s ease-out 0s;
+    -ms-transition: all 0.3s ease-out 0s;
+    -o-transition: all 0.3s ease-out 0s;
+    transition: all 0.3s ease-out 0s;
+}
+.call-to-action:hover .action-img,
+.call-to-action.active .action-img {
+    opacity: 1;
+}
+.call-to-action:hover .border,
+.call-to-action.active .border {
+    height: 45px;
+}
+.call-to-action:hover i,
+.call-to-action.active i {
+    color: #fff;
+}
+.call-to-action:hover h5,
+.call-to-action.active h5,
+.call-to-action:hover p,
+.call-to-action.active p {
+    color: #fff;
+}
+.call-to-action:hover a,
+.call-to-action.active a {
+    color: #fff;
+}
+.call-to-action:hover:before,
+.call-to-action.active:before {
+    background: rgba(0, 0, 0, 0.5) none repeat scroll 0 0;
+    color: #fff;
+    content: "";
+    display: block;
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+    -webkit-transition: all 0.3s ease-out 0s;
+    -moz-transition: all 0.3s ease-out 0s;
+    -ms-transition: all 0.3s ease-out 0s;
+    -o-transition: all 0.3s ease-out 0s;
+    transition: all 0.3s ease-out 0s;
+}
+
+/*===============================================*/
+/* Counter - Shortcode */
+/*===============================================*/
+.counter {
+    text-align: center;
+}
+.counter b {
+    font-size: 28px;
+    display: block;
+    color: #323232;
+    font-weight: bold;
+    margin: 10px 0px 0px;
+}
+.counter h6 {
+    position: relative;
+    padding-bottom: 10px;
+    margin: 10px 0px 30px;
+}
+.counter h6:before {
+    position: absolute;
+    content: "";
+    width: 20px;
+    height: 2px;
+    background: #db2d2e;
+    left: 50%;
+    margin-left: -10px;
+    bottom: 0px;
+}
+.counter i {
+    font-size: 32px;
+    color: #db2d2e;
+}
+.counter.icon .content {
+    display: table-cell;
+    text-align: left;
+    vertical-align: top;
+}
+.counter.icon b {
+    font-size: 40px;
+    display: block;
+    color: #db2d2e;
+    font-weight: 600;
+    margin: 0px 0px 10px;
+}
+.counter.icon h6 {
+    font-weight: 500;
+    font-size: 12px;
+    position: relative;
+    padding-bottom: 10px;
+    margin: 0;
+}
+.counter.icon h6:before {
+    display: none;
+}
+.counter.icon i{
+    font-size: 40px;
+    position: relative;
+    top: 15px;
+}
+.counter.icon i:before {
+    color: #999999;
+}
+.counter.icon.left .icon {
+    display: table-cell;
+    padding-right: 20px;
+}
+.counter.icon.left .icon i {
+    line-height: 42px;
+}
+.counter.icon.right .icon {
+    float: right;
+    display: inline-block;
+    padding-left: 20px;
+}
+.counter.icon.right .icon i {
+    line-height: 42px;
+}
+.counter.icon.right .content {
+    display: inline-block;
+    float: right;
+    text-align: right;
+    vertical-align: top;
+}
+
+/*----------------------*/
+/* Left - Separator */
+/*----------------------*/
+.counter.left-separator {
+    position: relative;
+}
+.counter.left-separator .separator:after {
+    position: absolute;
+    bottom: 0;
+    float: left;
+    height: 50px;
+    display: block;
+    margin: auto;
+    content: "";
+    width: 1px;
+    background: #db2d2e;
+    left: 5px;
+    transition: height .8s ease, background-color .8s ease;
+    -webkit-transition: height .8s ease, background-color .8s ease;
+    -o-transition: height .8s ease, background-color .8s ease;
+    -ms-transition: height .8s ease, background-color .8s ease;
+    -moz-transition: height .8s ease, background-color .8s ease;
+}
+.counter.left-separator .separator:before {
+    position: absolute;
+    bottom: 0;
+    float: left;
+    content: '';
+    display: block;
+    margin: auto;
+    width: 1px;
+    height: 30px;
+    background: #db2d2e;
+    transition: height .8s ease, background-color .8s ease;
+    -webkit-transition: height .8s ease, background-color .8s ease;
+    -o-transition: height .8s ease, background-color .8s ease;
+    -ms-transition: height .8s ease, background-color .8s ease;
+    -moz-transition: height .8s ease, background-color .8s ease;
+    margin-right: 10px;
+}
+.counter.left-separator .info {
+    margin-left: 30px;
+    display: block;
+    text-align: left;
+}
+.counter.left-separator .info i {
+    font-size: 34px;
+    color: #db2d2e;
+    display: inline-block;
+    margin-right: 10px;
+}
+.counter.left-separator .info b {
+    display: inline-block;
+    font-size: 40px;
+    font-weight: 600;
+    margin: 10px 0px;
+}
+.counter.left-separator h6 {
+    margin: 0px;
+}
+.counter.left-separator h6:before {
+    display: none;
+}
+
+/*----------------------*/
+/* Lines */
+/*----------------------*/
+.box-border .vc_row-fluid > [class*='vc_col-'] {
+    border-left: 1px solid #dedede;
+    border-top: 1px solid #dedede;
+    text-align: center;
+}
+.box-border .vc_row-fluid > [class*='vc_col-'] > [class*='vc_column-'] {
+    padding: 20px 30px;
+}
+.box-border .vc_row-fluid > [class*='vc_col-']:first-child {
+    border-left: none;
+}
+.box-border .vc_row-fluid:first-child > [class*='vc_col-'],
+.box-border .cd-space + .vc_row-fluid > [class*='vc_col-'] {
+    border-top: none;
+}
+
+/*----------------------*/
+/* Dark Background */
+/*----------------------*/
+.row-background-dark .counter i,
+.row-background-dark .counter.icon i:before,
+.row-background-dark .counter.left-separator .info i,
+.row-background-dark .counter h6,
+.row-background-dark .counter .info b,
+.row-background-dark .counter .content b {
+    color: #ffffff;
+}
+.row-background-dark .counter h6:before,
+.row-background-dark .counter.left-separator .separator:before,
+.row-background-dark .counter.left-separator .separator:after {
+    background: #ffffff;
+}
