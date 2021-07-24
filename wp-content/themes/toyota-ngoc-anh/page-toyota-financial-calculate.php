@@ -120,6 +120,9 @@ get_header();
                         </div>
 
                         <div class="center-ct pd-t-1">
+                           <button  id="loan-conditions-btn" class="bd-none button-red-second cl-white">
+                              Điều kiện vay
+                           </button>
                            <button id="btn-toyota-financial" class="bd-none button-red-second cl-white">
                               <span class="load-animate">
                                  <span class="icon-load-anm">
@@ -168,6 +171,11 @@ get_header();
                            <span class="line-boder mg-bt-1"></span>
                            <?php echo get_field('message_form') ?>
                         </div>
+                     </div>
+
+                     <div class="loan-conditions-popup">
+                        <?php echo get_field('dieu_kien_vay') ?>
+                        <button class="loan-conditions-close">Đóng</button>
                      </div>
                   </div>
                </div>

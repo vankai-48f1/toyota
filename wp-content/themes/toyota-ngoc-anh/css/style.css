@@ -1640,3 +1640,7 @@ div.vehicle-grade-ctn {
 ::-webkit-datetime-edit-day-field:not([aria-valuenow]) {
     color: transparent !important;
 }
+
+.loan-conditions-popup {
+  
+}
